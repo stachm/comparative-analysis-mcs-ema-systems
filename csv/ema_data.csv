@@ -1,0 +1,470 @@
+"app_name","app_source_apple","app_source_other","app_source_play","app_source_raw","app_source_unknown","crowd_opp","crowd_part","crowd_raw","emi_int","emi_raw","github_any","github_raw","incentive_raw","not_any","not_auditory","not_beep","not_flash","not_push","not_raw","not_sms","not_sound","not_type","not_vibration","os_android","os_ios","os_other","os_raw","os_unkown","paper_found","paper_found_2006","paper_found_2007","paper_found_2008","paper_found_2009","paper_found_2010","paper_found_2011","paper_found_2012","paper_found_2013","paper_found_2014","paper_found_2015","paper_found_2016","paper_found_2017","paper_found_2018","paper_found_2019","paper_found_2020","paper_found_2021","paper_found_raw","paper_used","sched_event","sched_interval","sched_raw","sched_signal","sensor_acc","sensor_bluetooth","sensor_camera","sensor_gps","sensor_gyro","sensor_magnetometer","sensor_mic","sensor_pedometer","sensor_photometer","sensor_raw","sensor_selfreport","sensor_sum","sensor_survey","sensor_wifi","study","study_adjust_schedule_any","study_adjust_schedule_raw","study_any","study_duration","study_participants","study_reminder_any","study_reminder_raw","study_response_limit","study_surveynum","usecase_agarophobia","usecase_alcoholism","usecase_allergies","usecase_anxiety","usecase_auditory_verbal_hallucinations","usecase_borderline_personality_disorder_","usecase_breastfeeding","usecase_bruxism","usecase_chronic_fatigue","usecase_chronic_pain","usecase_contact_with_older_person","usecase_daily_activities","usecase_depression","usecase_diet","usecase_drugs","usecase_emotional_wellbeing","usecase_environment","usecase_exercise","usecase_farm_activities","usecase_fatigue","usecase_happiness","usecase_hearing_loss","usecase_hiv_risk_behavior","usecase_inner_speech","usecase_loneliness_and_companionship","usecase_mental_health","usecase_mood","usecase_obsessive–compulsive_disorder","usecase_pain","usecase_panic_disorder_","usecase_parental_behavior","usecase_parkinson","usecase_physical_activities","usecase_psychological_well-being","usecase_psychosis","usecase_psychotherapy","usecase_raw","usecase_schizophrenia","usecase_sleep","usecase_smoking","usecase_social_media_use_(387)","usecase_stress","usecase_suicide_attempt","usecase_sum","usecase_tinnitus","website_raw","website_any"
+"ACT Daily",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","50$ Gift Card for participating.
+Research credits.
+Participants were entered into a drawing for a $100 gift card that was awarded at the end of the study.",1,0,0,0,1,"Push",0,0,"push",0,1,0,0,"Android",0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,"2017, 2019, 2020",3,1,0,"Signal + Event
+The check-in system provided semi-random prompts 3 times each day between 9:00 a.m. and 9:00 p.m. (once each between 9:00 a.m. and 1:00 p.m., 1:00 p.m. and 5:00 p.m., and 5:00 p.m. and 9:00 p.m.).",1,0,0,0,0,0,0,0,0,0,"Survey (VAS)",0,1,1,0,1,0,"N/A",1,"2 weeks
+4 weeks
+2 weeks","14
+69 (2)
+11",1,"Yes","N/A","3 per day
+2 per day
+3 per day",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Anxiety + Depression",0,0,0,0,0,0,2,0,"Yes",1
+"AlcoRisk",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2017,1,1,1,"Interval (hourly notifications) +  Event",0,0,0,0,1,0,0,0,0,0,"Survey (Multiple Choice) + GPS",0,2,1,0,1,0,"N/A",1,"2 weeks",19,1,"Yes","N/A","min 1 per day",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Alcoholism",0,0,0,0,0,0,1,0,"N/A",0
+"AppMe",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic
+The APP-Me app captures location (as longitude and latitude) every 10 seconds from the mobile device",1,"EMI",0,"N/A","10 cents per EMA, total up to 10$ for the 4 weeks",1,0,0,0,0,"Sound alert",0,1,"alert",0,1,0,0,"Android",0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"2019, 2018",2,0,0,"Signal",1,1,0,0,1,0,0,0,0,0,"Survey (Multiple Choice) + Accelerometer + GPS",0,3,1,0,1,1,"Yes",1,"4 weeks
+4 weeks","21
+240",1,"Yes",1,"During the 4-week field trial, both groups of participants received 12 EMA prompts daily, on the basis of their onboarding times
+
+4 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Weight Loss (Diet) + Physical activity",0,0,0,0,0,0,1,0,"N/A",0
+"AudioSense",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic (ich) ?
+The (GPS) data collection is triggered either by an
+alarm or when the user opens the application. The data collection is stopped after a timeout configured by the developer.",0,"N/A",0,"N/A","N/A",1,1,0,1,0,"auditory/vibrotactile prompts = Vibration, 
+loud ringtones,
+flash of the camera",0,0,"vibration",1,1,1,0,"Android + iOS",0,5,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,"2013, 2019, 2017,
+2014, 2015",2,1,1,"Signal + Interval + Event
+The EMA component supports the delivery of surveys using either fixed or a randomized schedules.
+
+Participants were also encouraged to initiate a survey during or immediately after they had a new listening experience lasting at least 10 min.",1,0,0,0,1,0,0,1,0,0,"Survey (Multiple Choice + Visual Analogue Scale)
++ GPS + Microphone",0,3,1,0,1,0,"N/A",1,"1 week
+1 week","5
+54",1,"Yes (Snooze)","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Hearing loss (Auditory perception)",0,0,0,0,0,0,1,0,"Yes",1
+"Baby Connect",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","Total study compensation was up to $110.",0,0,0,0,0,"N/A",0,0,"none",0,1,1,0,"Android + iOS",0,4,0,0,0,0,0,0,0,0,1,0,0,2,1,0,0,0,"2017, 2018, 2017,
+2014",1,1,0,"Event",0,0,0,0,0,0,0,0,0,0,"Self Data Entry (Self-Report)",1,1,0,0,1,0,"N/A",1,"8 weeks",61,0,"N/A","N/A","N/A",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Breastfeeding",0,0,0,0,0,0,1,0,"Yes",1
+"Beiwe",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic
+We divide all data collected by Beiwe into two categories: active data and passive data",0,"N/A",1,"Yes (from website)","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,10,0,0,0,0,0,0,0,0,0,0,1,1,3,2,1,2,"2016, 2020, 2021, 2018, 2017,
+2019, 2018, 2018, 2021, 2019",3,0,1,"Signal + Interval
+Currently Beiwe implements any number of surveys on any
+schedule, which allows for maximal flexibility",1,1,1,0,1,0,0,1,0,0,"Survey (Multiple Choice + Visual Analogue Scale) + 
+Audio samples (Microphone) + GPS + Accelerometer + 
+Bluetooth + WiFi",0,6,1,1,1,0,"N/A",1,"3 months
+3 months
+3 weeks","20
+69
+129",0,"N/A","N/A","48 = 4 per week
+2 per day (4 days a week)
+4 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,"Schizophrenia
+Sleep Quality
+loneliness and companionship",1,1,0,0,0,0,3,0,"Yes",1
+"BrightSelf",0,"N/A",0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,5,0,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,"2018, 2017, 2017, 2017, 2019",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"?
+6 months","38
+N/A",0,"N/A","N/A","N/A
+3 per day",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,"Psychological Well-Being
+during pregnancy.
+Depression + Mood States",0,0,0,0,0,0,3,0,"Yes",1
+"Britain Breathing",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",1,"Yes (same university)","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2018,1,1,1,"Interval + Event",0,0,0,0,1,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale) + GPS",0,2,1,0,1,0,"N/A",1,"32 weeks",425,0,"N/A","N/A","N/A",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Allergies + Mood",0,0,0,0,0,0,2,0,"Yes",1
+"BruxApp",1,0,1,"Play Store + App Store",0,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Sound alert",0,1,"alert",0,1,1,0,"Android + iOS",0,7,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,2,"2019, 2019, 2020, 2018, 2021,
+2018, 2021",7,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,1,"Yes",1,"2 weeks
+1 week
+1 week
+1 week
+1 week
+1 week","30
+60
+N/A
+147
+46
+153",0,"N/A",1,"15 per day
+20 per day
+15 per day
+20 per day
+15 per day
+20 per day",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bruxism",0,0,0,0,0,0,1,0,"Yes",1
+"ClinTouch",0,"N/A",0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Participants on pay-as-you-go tariffs received £50 worth of
+phone credit, which they topped up prior to the week of
+text-message questions.
+All participants were reimbursed an additional £30 upon completion of both sampling procedures.",1,0,0,0,0,"Alarm",0,0,"alert",0,1,0,0,"Android",0,10,0,0,0,0,0,0,1,1,0,1,0,1,1,3,2,0,"2013, 2012, 2017, 2019, 2018,
+2019, 2020, 2020, 2019, 2015",5,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (VAS)",0,1,1,0,1,0,"N/A",1,"12 days
+1 week
+6 days
+10 days
+12 weeks","24
+44
+23
+15
+12",1,"Yes",1,"4 per day
+6 per day
+10 per day
+4 per day
+3 per day",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Schizophrenia (24)
+Mental illness (44)
+Chronic Fatigue (23)
+Psychosis ili Schizophrenia (15 participants)
+Psychosis (12 patients)",1,0,0,0,0,0,4,0,"Yes",1
+"Contact Logger",0,1,0,"APK",0,0,1,"Participatory",0,"N/A",1,"Yes (from website)","N/A",0,0,0,0,0,"N/A",0,0,"none",0,1,0,0,"Android",0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,"2020, 2017",1,1,0,"Event",0,0,0,1,1,0,0,0,0,0,"Self Data Entry + Camera + GPS + WiFi",1,4,0,1,1,0,"N/A",1,"1 week",12,0,"N/A","N/A","107 contacts recorded",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Contact with older person",0,0,0,0,0,0,1,0,"Yes",1
+"CopeSmart",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,4,0,0,0,0,0,0,0,0,0,1,2,0,0,0,1,0,"2016, 2015, 2016, 2020",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,1,"Yes",1,"4 weeks
+1 week","208
+43",0,"N/A","N/A","1 per day
+N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States",0,0,0,0,0,0,1,0,"N/A",0
+"DE-Free",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,1,0,0,0,"Auditory",0,0,"alert",0,0,0,"N/A","N/A",1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2017,1,0,1,"Interval
+Auditory signals will be sent at random moments during the following time intervals: equally spread between 8.30 a.m. and 7.30 p.m.",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"10 weeks",300,0,"N/A","N/A","5 per day (every other day)",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Depression",0,0,0,0,0,0,1,0,"N/A",0
+"devilSPARC",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","And were offered incentives of up to US $80 for their completion of the pilot study.
+Refer-a-friend-bonus gift card of $5.",1,0,0,0,0,"SMS reminder
+to use the app",1,0,"sms",0,1,1,0,"Android + iOS",0,3,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,"2016, 2016, 2018",3,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,0,"N/A",1,"4 days
+8 months
+1 week","109
+304
+663",0,"N/A",1,"7 per day on 4 days of a week
+8 per day on 4 days of a week
+8 per day on 4 days of a week",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Diet + Physical Activity",0,0,0,0,0,0,1,0,"N/A",0
+"eMocha",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Participants were paid US $50 every week for answering 80% 
+of their alarms or US $25 every week for answering 60% of their alarms",1,0,0,0,0,"Yes",0,0,"unkown",0,1,0,0,"Android",0,3,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,"2015, 2013, 2017",2,1,1,"Signal + Interval + Event",1,0,0,0,1,0,0,0,0,0,"Survey (Multiple Choice) + GPS",0,2,1,0,1,0,"N/A",1,"4 weeks
+1 month","15
+109",1,"Yes",1,"3 per day
+5 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Alcohol + Substabce (Drug) Use",0,0,0,0,0,0,0,0,"Yes",1
+"Emoteo",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",0,0,0,0,0,"N/A",0,0,"none",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2017,1,1,0,"Event",0,0,0,0,0,0,0,0,0,0,"Survey (VAS)",0,1,1,0,1,0,"N/A",1,"6 months",16,0,"N/A","N/A","2 per day",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Borderline Personality Disorder 
+(but assessing tension mood states)",0,0,0,0,0,0,2,0,"Yes",1
+"e-Ouch (PDA)",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","$10 movie pass",1,0,0,0,0,"Alarm",0,0,"alert",0,0,0,1,"Palm",0,3,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,"2006, 2008, 2016",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (VAS)",0,1,1,0,1,0,"N/A",1,"6 weeks
+2 weeks","20
+13",0,"N/A",1,"3 per day
+3 per day",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Chronic Pain (Arthritis)",0,0,0,0,0,0,2,0,"N/A",0
+"Ethica",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic",0,"N/A",1,"Yes (from website)","For participation in the EMA, parents received €20,- and adolescents €10,-. In addition, four gift vouchers of €75,- were raffled based on compliance.",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,2,"2018, 2020, 2021, 2020, 
+2020, 2021, 2020",7,1,1,"Signal + Interval + Event",1,1,1,1,1,1,1,1,1,0,"Survey + Accelerometer + Bluetooth+  Camera + GPS + Gyroscope + Magnetometer + Microphone + 
+Pedometer + WiFi",0,10,1,1,1,0,"N/A",1,"12x8 days (3 years)
+2x2 weeks
+6 weeks
+7 days
+8 weeks
+3 weeks
+1 day","317
+101
+57
+67
+95
+387
+9",0,"N/A",1,"N/A
+4 per day
+5 per day
+6 per day
+4 per day
+6 per day
+3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,"Physical Activity (317)
+Parental behavior (101)
+Fatigue (57)
+Physical Activity + Mood States (67)
+Tobacco use (95)
+Social Media Use (387)
+Mood (Stress) (9)",0,0,0,1,1,0,5,0,"Yes",1
+"ExtraSensory (Phone + Smartwatch)",0,1,0,"GitHub Download Code",0,1,1,"Participatory + Opportunistic",0,"N/A",1,"Yes (from website)","We also compensated users for their participation with a basic amount of US$40, plus an incentive amount of $0–35, depending on the amount of labeled data that the user contributed",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"2018, 2020",1,1,1,"Interval + Event",0,1,0,0,1,1,1,1,0,0,"Survey + Accelerometer + GPS + Gyroscope + Magnetometer + 
+Microphone + WiFi",0,7,1,1,1,1,"Yes",1,"7 days",60,0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Physical Activity",0,0,0,0,0,0,0,0,"Yes",1
+"GET.ON Panik",0,"N/A",0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","N/A",0,0,0,0,0,"N/A",0,0,"none",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,"2014, 2013",2,1,0,"Event",0,0,0,1,0,0,0,0,0,0,"Survey (VAS) + Camera",0,2,1,0,1,0,"N/A",1,"6 weeks",45,0,"N/A","N/A","N/A",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Panic Disorder  + Agarophobia",0,0,0,0,0,0,2,0,"Yes",1
+"G-Moji",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic
+Moreover, the G-Moji app also collects socio-behavioral passive data (e.g., call logs, Bluetooth devices  in proximity)",0,"N/A",0,"N/A","As a reward, the participants received a power bank for their wireless devices along with € 5 for each month of participation.",1,0,0,0,0,"Yes",0,0,"unkown",0,1,0,0,"Android",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2019,1,0,1,"Interval",0,0,1,0,0,0,0,0,0,0,"Survey (Visual Multiple Choice with Emojis) + Bluetooth",0,2,1,0,1,0,"N/A",1,"6 months",32,0,"N/A","N/A","1 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Mental Health Problems",0,0,0,0,0,0,1,0,"Yes",1
+"HappyHier",0,0,1,"Play Store",0,1,1,"Participatory + Opportunistic
+The app checked the location of the participant at regular time intervals (Android) or checked the location when the participant changed position (iOS).",0,"N/A",0,"N/A","N/A",1,0,0,0,1,"Sound alert + 
+Vibration.
+Push",0,1,"push",1,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,"2021, 2017",2,0,0,"Signal",1,0,0,0,1,0,0,0,0,0,"Survey (Visual Analogue Scale) + GPS",0,2,1,0,1,0,"N/A",1,"3 months",4318,1,"Yes","N/A","1-2 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Happiness",0,0,0,0,0,0,1,0,"N/A",0
+"HowNutsAreTheDutch (Web Application)",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"SMS with a Link 
+to the Questionnaire",1,0,"sms",0,0,0,"N/A","N/A",1,4,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,"2016, 2019, 2020, 2014",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (VAS)",0,1,1,0,1,0,"N/A",1,"30 days
+N/A","12503
+22",0,"N/A",1,"3 per day
+N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Mental Health Disorder",0,0,0,0,0,0,1,0,"Yes",1
+"iHabit",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","$5 gift cards after the 8th week of study",1,0,0,0,1,"Visual (Push) + Alarm",0,0,"push",0,0,1,0,"iOS",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2013,1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"14 weeks",81,0,"N/A","N/A","5-7 per day",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Daily Activities (study, exercise) - social",0,0,0,0,0,0,2,0,"N/A",0
+"iHOPE",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,"2016, 2016",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"8 weeks
+2 weeks","59
+40",0,"N/A","N/A","2 per day
+4 per day",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Anxiety + Depression + Sleep",0,1,0,0,0,0,3,0,"N/A",0
+"Inner Life",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2015,1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,1,"Yes",1,"2 weeks",51,0,"N/A","N/A","2 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Inner Speech",0,0,0,0,0,0,1,0,"N/A",0
+"Intersession-Online",1,0,1,"Play Store + App Store",0,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"2019, 2020",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,1,"Yes",1,"N/A",10,0,"N/A",1,"3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Psychotherapy",0,0,0,0,0,0,1,0,"Yes",1
+"iVoice",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A",50,1,0,1,0,0,"Beep Signal",0,0,"alert",0,0,1,0,"iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,"2019, 2017",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"1 week
+16 days","3
+1",0,"N/A","N/A","5 per day
+5 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"L
+Schizophrenia",1,0,0,0,0,0,1,0,"N/A",0
+"Jeeves",0,0,1,"Play Store",0,0,1,"Participatory",1,"EMI",1,"Yes (from website)","Participatory incentives of €20 coupons were distributed among the most active participants",1,0,0,0,0,"Yes",0,0,"unkown",0,1,0,0,"Android",0,7,0,0,0,0,0,0,0,0,0,1,1,1,2,1,1,0,"2018, 2017, 2015, 2018,
+2016, 2019, 2020",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"2 months",20,0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Diet",0,0,0,0,0,0,1,0,"Yes",1
+"LiaD",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","$20",0,0,0,0,0,"N/A",0,0,"none",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"2018, 2021",2,1,0,"Event",0,0,0,0,1,0,0,0,0,0,"Survey + GPS",0,2,1,0,1,0,"N/A",1,"6 months
+1-5 days","30-50
+48",0,"N/A","N/A","N/A
+N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Farm activities (no category)
+Daily (Physical) Activities (study, exercise)",0,0,0,0,0,0,2,0,"N/A",0
+"LifeRhythm",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","Monetary",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,4,0,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,"2020, 2018, 2016, 2018",1,0,0,"Signal",1,0,0,0,1,0,0,0,0,0,"Survey + GPS",0,2,1,0,1,0,"N/A",1,"12 weeks",250,0,"N/A","N/A","N/A",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Anxiety + Mood + Depression",0,0,0,0,0,0,3,0,"N/A",0
+"mEMA",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","$30-$200
+$20
+The first participants received 6 daily assessments (condition 1, paid at $1.50 per response); later participants received 5 daily assessments (condition 2, paid at $1.80 per response), and then 4 (condition 3, paid at $2.25 per response). Participants earned a bonus of $10 for completing at least 80% of the assessments, and an additional $10 if they completed 90% of the assessments.",1,1,0,0,0,"Auditory or Vibration",0,0,"vibration",1,1,1,0,"Android + iOS",0,12,0,0,0,0,0,0,0,0,0,0,3,1,4,1,3,0,"2020, 2019, 2018,
+2020, 2017, 2016,
+2018, 2020, 2018,
+2018, 2016, 2016",9,1,1,"Signal + Interval + Event",1,1,0,0,1,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale) +
+ Accelerometer + GPS",0,3,1,0,1,0,"N/A",1,"1 week
+1 week
+15 days
+12 months
+5 days
+7 days
+2 weeks
+6 days","12
+126
+185
+22
+96
+78
+101
+6",1,"Yes",1,"5 per day
+8-9 per day
+4-6 per day
+5 per day
+7 per day
+5 per day
+5 per day
+6 per day",0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,"Mood States + Physical Activities
+Borderline Personality Disorder + Depression.
+Anxiety + Stress
+Smoking Habits
+Sleep + Well Being
+Pain Management",0,1,1,0,1,0,9,0,"Yes",1
+"MetricWire",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","Participants earned $2 for
+each DD and $0.50 for each ES, plus a bonus of $10 for every
+10 days that rates were above targets for both survey
+types (for a total possible of $185).
+Payments were contingent on response
+rates: they earned $2 for each morning survey, plus a Bbonus^
+of $10 for every 10 days when all these assessments were
+completed, as well as $0.50 for each random survey, with a
+Bbonus^ of $10 for every 10 days if they have completed >
+80% (total of $210 possible).",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,10,0,0,0,0,0,0,0,0,0,0,1,0,1,3,3,2,"2019, 2020, 2019, 2021, 2020,
+2016, 2018, 2019, 2020, 2021",5,1,1,"Signal + Interval + Event",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"15 months
+30 days
+30 days
+10 days
+12 weeks","83
+100
+80
+56
+30",1,"Yes",1,"N/A
+N/A
+6 per day
+6 per day
+3 per day",0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,"Alcoholism (83)
+HIV risk behavior (100)
+HIV risk behavior (80)
+Mood (56)
+Stress, Anxiety, Depression (30)",0,0,0,0,1,0,6,0,"Yes",1
+"μEMA (Smartwatch)",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Loaning a smartwatch to try out for 4 days",1,0,0,0,0,"Vibration (no audio)",0,0,"vibration",1,1,0,0,"Android",0,4,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,"2016, 2017, 2021, 2019",3,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"4 weeks
+4 weeks
+1 week","33
+10
+17",1,"Yes",1,"6-8 per day
+6 per day
+72 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States
+Mood
+Physical Activity",0,0,0,0,0,0,1,0,"N/A",0
+"Mind the Moment",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","Participants received US $25 for each assessment, $15
+for each in-person counseling session, $25 per week for wearing the sensorband 5 or more hours a day (for 5 out of 7 days), and $5 for sending their data electronically every other day",1,0,0,0,0,"Audio + Vibration",0,0,"vibration",1,1,0,0,"Android",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2017,1,1,0,"Signal + Event",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,0,"N/A",1,"3 weeks",10,1,"Yes","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Alcohol + Stress",0,0,0,0,1,0,1,0,"N/A",0
+"Mindful Moods",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Subjects were compensated US $50 for completing at least 70% of survey sessions offered by the app",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2015,1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"30 days",13,0,"N/A",1,"3 per day",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Depression",0,0,0,0,0,0,1,0,"N/A",0
+"mindLAMP",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic",1,"EMI",1,"Yes (from website)","Participants were compensated at the rate
+of $15/hour for time spent in-lab and $1 for every smartphone assessment",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,6,"2019, 2020, 2019, 2020,
+2021, 2020, 2021, 2021,
+2021, 2021, 2021",5,0,1,"Signal + Interval",1,1,0,0,1,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale) + 
+Accelerometer + GPS",0,3,1,0,1,0,"N/A",1,"3 months
+3 months
+10 days","47
+92
+27",0,"N/A","N/A","4 per day
+N/A
+5 per day",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,"Schizophrenia, Mood, Sleep, Anxiety
+Schizophrenia, Depression, Suicide attempt
+Parkinson",1,1,0,0,0,1,7,0,"Yes",1
+"Mobile Teen",0,"N/A",0,"N/A",1,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","Participants received up to $180 for completing the study",1,0,0,0,0,"Sound",0,1,"alert",0,1,0,0,"Android",0,2,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"2016, 2014",1,0,0,"Signal",1,1,0,0,0,0,0,0,0,0,"Survey (Multiple Choice) + Accelerometer",0,2,1,0,1,0,"N/A",1,"2 weeks",39,1,"Yes",1,"7 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Physical Activity",0,0,0,0,0,0,0,0,"N/A",0
+"Moment Health",0,0,1,"Play Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"2019, 2019, 2018",1,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,0,"N/A",1,"16 months",1461,0,"N/A","N/A","3 per day",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Anxiety + Depression + Mood States",0,0,0,0,0,0,3,0,"N/A",0
+"Monsenso",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic
+includes automatically collected sensor data, such as measures of smartphone use, physical activity, and voice features.",0,"N/A",1,"Yes (from website)","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,7,0,0,0,0,0,0,0,0,1,0,0,0,0,3,2,1,"2019, 2019, 2014, 2020,
+2021, 2020, 2019",2,0,1,"Interval",0,0,0,0,0,0,0,1,0,0,"Survey + Microphone",0,2,1,0,1,1,"Yes",1,"4 months
+9 months","40
+84",0,"N/A","N/A","1 per day
+1 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Stress (40)
+Mood States",0,0,0,0,1,0,2,0,"Yes",1
+"Mood Zoom",0,"N/A",0,"N/A",1,1,1,"Participatory + Opportunistic
+The introduction of a mobile phone app also enabled the collection of passive background data, such as number of texts or calls and geolocation",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,0,0,"Android",0,5,0,0,0,0,0,0,0,0,1,0,1,0,1,0,2,0,"2020, 2016, 2014, 2020, 2018",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"3 months",139,0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States",0,0,0,0,0,0,1,0,"N/A",0
+"Mood Buster",1,0,1,"Play Store + App Store",0,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,3,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,"2017, 2018, 2017",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"N/A",143,1,"Yes","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States",0,0,0,0,0,0,1,0,"Yes",1
+"MoodPrism",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","1 of the 4 $AU100 (approximately US $75) gift vouchers.",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"2016, 2018",1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,0,"N/A",1,"1 month",11,0,"N/A",1,"N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States",0,0,0,0,0,0,1,0,"Yes",1
+"MovisensXS",0,0,1,"Play Store",0,0,1,"Participatory",1,"EMI",1,"Yes (from website)","Participant compensation was prorated based on compliance,
+with participants answering at least 80% of the EMA prompts
+earning the full $80.",1,1,0,0,1,"Auditory
+Audio, Vibration, 
+Text (Push)",0,0,"push",1,1,0,0,"Android",0,13,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4,0,"2017, 2018, 2020, 2018,
+2020, 2020, 2019, 2017,
+2019, 2018, 2019, 2019, 2020",8,1,1,"Signal + Interval + Event",1,0,0,0,1,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale) + GPS",0,2,1,0,1,0,"N/A",1,"1 week
+10 days
+6 days
+1 week
+13 days (5+4+4)
+1 week
+4 days
+2 weekends","97
+104
+17
+113
+226 (57+97+72)
+50
+39
+26",1,"Yes",1,"4 per day
+6 per day
+10 per day
+6-19 per day
+N/A
+5 per day
+10 per day
+12 per day",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,"Physical Activity + Stress
+Physical Activity
+Auditory Verbal Hallucinations
+Physical Activity
+Physical Activity
+Dietary intake
+obsessive–compulsive disorder (OCD)
+Mood States",0,0,0,0,1,0,5,0,"Yes",1
+"mQoL Peers",0,0,1,"Play Store",0,0,1,"Participatory",0,"N/A",0,"N/A","Participants who completed the study entered a raffle for 2 Amazon gift cards worth US $50 each.",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,4,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,"2020, 2018, 2018, 2018",1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"4 weeks","23 (13+10)",0,"N/A",1,"8 per day + 3 per day",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stress, Anxiety",0,0,0,0,1,0,2,0,"Yes",1
+"MuPsych",0,0,1,"Play Store",0,1,1,"Participatory + Opportunistic
+Automated data collection",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,5,0,0,0,0,0,0,1,0,1,0,0,1,1,0,1,0,"2012, 2018, 2017, 2014, 2020",3,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"2 weeks
+2 weeks","101
+327",0,"N/A","N/A","2-4 per day
+2 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States",0,0,0,0,0,0,1,0,"Yes",1
+"MyExperience (HTC Shadow, Palm Treo)",0,"N/A",0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Participants were compensated for study participation as follows: $25 for the baseline assessment; 
+$50 for completion of the 1-month EMA phase and returning the device, and $25 at 2- and 4-month in person follow-up assessments (follow-up data are not reported here). To incentivize participants to complete EMA prompts, $0.50 was given for each of the EMA assessments completed, for up to an additional $60 in compensation",1,0,0,0,0,"Sound",0,1,"alert",0,0,0,1,"Windows",0,11,0,1,0,0,0,1,2,0,1,2,0,3,1,0,0,0,"2017, 2017, 2012, 2011, 
+2017, 2015, 2018, 2015,
+2014, 2012, 2007",6,0,1,"Signal + Interval",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,1,"Yes",1,"12 days
+4 weeks
+4 days
+4 days
+4 days
+4 days","116
+65
+110
+121
+105
+114",1,"Yes",1,"8 per day
+3 per day
+8 per day
+3-7 per day
+8 per day
+8 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Physical Activity + Mood
+Schizophrenia
+Physical Activity
+Physical Activity
+Stress
+Physical Activity",1,0,0,0,1,0,3,0,"Yes",1
+"Ohmage",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",1,"Yes (from website)","Participants earned up to $20 every two weeks during the 8-week study intervention,  based on how many EMA surveys they completed",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,8,0,0,0,0,0,1,1,1,1,1,0,0,3,0,0,0,"2018, 2018, 2018, 2014,
+2012, 2013, 2015, 2011",2,1,1,"Interval
+Signal + Event",1,0,0,0,1,0,0,0,0,0,"Survey + GPS",0,2,1,0,1,1,"Yes",1,"8 weeks
+6 months","34
+42",1,"Yes","N/A","5 per day
+3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drug use
+Diet + Stress + Physical Activity",0,0,0,0,1,0,2,0,"Yes",1
+"OnHand (Wearable)",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,1,0,0,0,"Auditory signal",0,0,"alert",0,0,0,"N/A","N/A",1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2007,1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"3 weeks",18,1,"Yes",1,"N/A",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Chronic Fatigue",0,0,0,0,0,0,2,0,"N/A",0
+"OnTrack",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,0,1,0,"iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"2020, 2019",2,1,0,"Signal + Event",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"10 weeks
+8 weeks","121
+43",0,"N/A","N/A","6 per day
+6 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States + Diet
+Diet",0,0,0,0,0,0,2,0,"N/A",0
+"Pain Monitor",0,0,1,"Play Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,1,"Push",0,0,"push",0,1,0,0,"Android",0,5,0,0,0,0,0,0,0,0,0,0,0,0,2,1,2,0,"2019, 2018, 2020, 2018, 2020",5,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,1,"Yes",1,"30 days
+30 days
+30 days
+4 weeks","250
+150
+38
+225",1,"Yes",1,"2 per day
+2 per day
+2 per day
+2 per day",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Chronic Pain (Arthritis)
+Chronic Pain (Arthritis)
+Chronic Pain (Arthritis)
+Chronic Pain (Arthritis)",0,0,0,0,0,0,2,0,"N/A",0
+"Pain Squad",1,0,0,"App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","Gamification",1,1,0,0,0,"Auditory",0,0,"alert",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,"2013, 2015",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,1,"Yes",1,"2 weeks
+2 + 3 weeks","18
+92 + 14",0,"N/A",1,"2 per day
+2 per day (both)",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Chronic Pain
+Chronic Pain",0,0,0,0,0,0,2,0,"Yes",1
+"PETE",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Participants were compensated up to $40 for their participation in the study, based on their compliance to the protocol. Participants earned $0.75 each time they wore the physiological monitoring system(i.e., BioHarness 3.0) for 12 h ($15) and a bonus of $25 for completing all four of the surveys on 85 % of study days.",1,1,0,0,0,"Auditory",0,0,"alert",0,1,0,0,"Android",0,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,"2016, 2018, 2017",2,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,1,"Yes",1,"20 days
+20 days","20
+26",0,"N/A","N/A","4 per day
+4 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States
+Mood States",0,0,0,0,0,0,1,0,"N/A",0
+"PiLR EMA",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",1,"Yes","Participants received $45 for baseline; $1.00 for completing at least 1 EMA survey/day; $10.00 for completing ≥70% of all EMA surveys; and $15.00 for completing ≥90% of all EMA surveys (totaling a maximum of $80).",1,1,0,0,0,"Auditory, Vibration",0,0,"vibration",1,1,1,0,"Android + iOS",0,4,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,"2017, 2019, 2018, 2018",3,0,1,"Signal + Interval",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"10 days
+10 days","44
+176",0,"N/A",1,"3 per day
+2-3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Tobacco use
+Tobacco use",0,0,0,0,0,0,0,0,"Yes",1
+"Pit-a-Pat",0,"N/A",0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,1,"Push",0,0,"push",0,1,1,0,"Android + iOS",0,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,"2014, 2017, 2016",1,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"90 days",30,0,"N/A","N/A","2 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States + Sleep disturbance",0,1,0,0,0,0,2,0,"N/A",0
+"PRO-Diary (CamNTech Wearable)",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","Participants were compensated $100 for full study participation, allocated by $25 for baseline visit, $5 per day for
+days 1 through 3, $10 per day for days 4 and 5, and $20 per day for days 6 and 7 of home monitoring.",1,0,0,0,0,"Audible alarm",0,0,"alert",0,0,0,1,"Windows",0,3,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,"2017, 2018, 2017",2,0,1,"Interval",0,1,0,0,0,0,0,0,0,0,"Survey + Accelerometer",0,2,1,0,1,0,"N/A",1,"7 days
+7 days","128
+131",1,"Yes","N/A","5 per day
+5 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Pain ",0,0,0,0,0,0,1,0,"N/A",0
+"PROMPT (Smartwatch)",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","Each participant received compensation of a US $50 gift card.",1,0,0,0,0,"Yes",0,0,"unkown",0,0,0,1,"Tizen",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2019,1,0,1,"Interval",0,0,0,0,0,0,0,0,0,0,"Survey (Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"N/A",19,0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,"Pain + Mood + Physical Activity",0,0,0,0,0,0,2,0,"N/A",0
+"PsyMate (Smartphone and PDA)",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,1,0,0,0,"Auditory signal",0,0,"alert",0,1,1,0,"Android + iOS",0,10,0,0,0,0,0,2,0,0,2,0,1,1,0,2,2,0,"2019, 2016, 2020, 2014, 2011,
+2014, 2020, 2017, 2011, 2019",5,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice)",0,1,1,0,1,0,"N/A",1,"5 days
+7 days
+18 weeks","5
+26
+34",0,"N/A",1,"10 per day
+9 per day
+10 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Mood States
+Mood States
+Mood States",0,0,0,0,0,0,1,0,"Yes",1
+"RealLife Exp",1,0,1,"Play Store + App Store",0,0,1,"Participatory",1,"EMI",0,"N/A","Participants could earn up to US $50 for completing all parts
+of the study",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,8,0,0,0,0,0,0,0,0,0,0,1,0,2,2,3,0,"2018, 2020, 2016, 2020,
+2020, 2019, 2019, 2018",7,0,1,"Signal + Interval",1,0,0,0,0,0,0,0,0,0,"Survey (Multiple Choice + Visual Analogue Scale)",0,1,1,0,1,0,"N/A",1,"6 days
+14 days
+5 days
+14 days
+5 days
+5 days
+14 days","N/A
+27
+22
+22
+55
+64
+125",1,"Yes",1,"10 per day
+2 per day
+4 per day
+6 per day
+10 per day
+4 per day
+7 per day",0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,"Auditory verbal hallucinations
+Mood
+Mood, Physical Activity, Pain
+Fatigue
+Emotional Wellbeing (Mood States)
+Physical Activity, Mood
+Depression",0,0,0,0,0,0,6,0,"Yes",1
+"SEP-EMA",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,0,1,0,"iOS",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2019,1,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"3-4 months",19,0,"N/A",1,"4 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Social",0,0,0,0,0,0,0,0,"N/A",0
+"Sivantos",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","Participants were paid 20 cents for every short questionnaire
+and additional 50 cents when answering a long questionnaire, but no more than 10 Euros per day.",1,0,0,1,0,"Audio, Vibration, Flash",0,0,"biration",1,1,0,0,"Android",0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"2020, 2020",1,1,0,"Signal + Event",1,0,0,0,0,0,0,1,0,0,"Survey (Multiple Choice) + Microphone",0,2,1,0,1,1,"Yes",1,"3 weeks",20,0,"N/A",1,"8 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Hearing perception",0,0,0,0,0,0,0,0,"Yes",1
+"SmartCAT",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","Gamification",1,0,0,0,1,"Push",0,0,"push",0,1,0,0,"Android",0,2,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"2014, 2018",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"N/A","9
+35",1,"Yes","N/A","N/A",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Anxiety",0,0,0,0,0,0,1,0,"N/A",0
+"SMARTFOOD",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","As compensation, participants could choose between receiving €25 or course credits (3 hours).",1,0,0,0,0,"Yes",0,0,"unkown",0,1,0,0,"Android",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,"2020, 2020, 2020",3,1,0,"Event",0,0,0,1,0,0,0,0,0,0,"Self-Entry + Survey + Camera",1,3,1,0,1,0,"N/A",1,"8 days
+14 days","35
+73",1,"Yes","N/A","N/A
+N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Diet
+Diet (Food intake)",0,0,0,0,0,0,1,0,"N/A",0
+"StudentLife",0,0,0,"N/A",1,1,1,"Participatory + Opportunistic",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,9,0,0,0,0,0,0,0,0,1,0,0,2,2,2,2,0,"2020, 2018, 2017, 2018,
+2020, 2019, 2019, 2014, 2017",3,0,1,"Signal + Interval",1,1,0,0,1,0,0,1,0,1,"Survey + Accelerometer + GPS + Photometer + Microphone",0,5,1,0,1,0,"N/A",1,"10 weeks
+18 weeks","217
+83",0,"N/A","N/A","N/A
+N/A",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Depression, Stress, Physical Activity, Sleep
+Depression",0,1,0,0,1,0,3,0,"Yes",1
+"TechCare",0,0,0,"N/A",1,0,1,"Participatory",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,0,0,1,"Windows",0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"2016, 2019",2,0,0,"Signal",1,0,0,0,0,0,0,0,0,0,"Survey",0,1,1,0,1,0,"N/A",1,"2 weeks",12,0,"N/A","N/A","3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Psychosis",0,0,0,0,0,0,1,0,"N/A",0
+"TrackYourStress",0,0,0,"N/A",1,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"2019, 2019",1,1,1,"Signal + Interval + Event",1,0,0,0,1,0,0,1,0,0,"Survey + GPS + Microphone",0,3,1,0,1,1,"Yes",1,"4 weeks",78,0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stress",0,0,0,0,1,0,1,0,"Yes",1
+"TrackYourTinnitus",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,20,0,0,0,0,0,0,0,0,0,2,4,4,4,2,4,0,"2020, 2016, 2017, 2016, 2016,
+2020, 2018, 2015, 2017, 2015, 
+2018, 2019, 2018, 2020, 2017,
+ 2018, 2017, 2016, 2020, 2019",9,1,1,"Signal + Interval + Event",1,0,0,0,0,0,0,1,0,0,"Survey + Microphone",0,2,1,0,1,1,"Yes",1,"23 months
+N/A
+10 months
+N/A
+16 weeks
+N/A","857
+350
+658
+306
+36
+518",0,"N/A","N/A","max 12 per day
+N/A
+N/A
+N/A
+N/A
+max 8  or 3-12 per day adjust",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Tinnitus",0,0,0,0,0,0,1,1,"Yes",1
+"Urban Mind",1,0,1,"Play Store + App Store",0,0,1,"Participatory",0,"N/A",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"2018, 2019",2,0,0,"Signal",1,0,0,1,1,0,0,1,0,0,"Survey (Multiple Choice) + GPS + Camera + Microphone",0,4,1,0,1,0,"N/A",1,"1 week
+2 weeks","108
+102",0,"N/A",1,"7 per day
+3 per day",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Environment + Mental Health",0,0,0,0,0,0,2,0,"Yes",1
+"Wear-IT",1,0,1,"Play Store + App Store",0,1,1,"Participatory + Opportunistic",1,"EMI",0,"N/A","N/A",1,0,0,0,0,"Yes",0,0,"unkown",0,1,1,0,"Android + iOS",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2020,1,1,0,"Signal + Event",1,0,1,1,1,0,0,0,0,0,"Survey + Camera + Bluetooth + GPS",0,4,1,0,"N/A",1,"Yes",0,"N/A","N/A",0,"N/A","N/A","N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stress",0,0,0,0,1,0,1,0,"Yes",1

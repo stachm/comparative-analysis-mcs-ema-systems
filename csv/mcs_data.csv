@@ -1,0 +1,283 @@
+"system_name","app_name","app_source_apk","app_source_apple","app_source_play","app_source_raw","app_source_store","app_source_unknown","app_unknown","computing_env_cloud","computing_env_fog","computing_env_raw","computing_env_server","computing_env_sum","computing_env_unknown","context_aware_any","context_aware_raw","context_aware_unknown","crowd_opp","crowd_part","crowd_raw","db_raw","db_relational","db_unknown","dc_raw","github_any","github_raw","incentivization_raw","os_android","os_ios","os_other","os_raw","os_sum","os_unknown","paper_found","paper_found_2006","paper_found_2007","paper_found_2008","paper_found_2009","paper_found_2010","paper_found_2011","paper_found_2012","paper_found_2013","paper_found_2014","paper_found_2015","paper_found_2016","paper_found_2017","paper_found_2018","paper_found_2019","paper_found_2020","paper_found_raw","paper_used","scalable_raw","sensor_acc","sensor_baro","sensor_blue","sensor_c02","sensor_cam","sensor_cell","sensor_external","sensor_gps","sensor_gyro","sensor_hygro","sensor_magneto","sensor_mic","sensor_photometer","sensor_proximity","sensor_sum","sensor_survey","sensor_thero","sensor_wifi","study_raw","study_recruitment_raw","usecase_raw","website_raw","website_unknown"
+"A3Droid","A3Droid",0,0,0,"N/A",0,1,0,0,1,"Fog",0,1,0,0,"N/A",1,1,0,"Opportunistic
+collects geo data from moving busses. It then proceeds to create a timer that will periodically (i.e., every 30 seconds) calculate the average of the stored geo-located data and send the average to the application’s remote server","N/A",0,1,"GPS, WiFi",1,"Yes (from author)","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"Yes",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"Yes 
+(group of 3-12 devices per bus)","N/A","Collecting Geo-Located Data from moving Buses","N/A",1
+"AirSense (A)","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","MySQL",1,0,"Bluetooth,  GPS, External Sensor",0,"N/A","Here the incentive is AQImap service.",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,"2016, 2017",2,"N/A",0,0,1,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,"Yes","N/A","Air pollution","N/A",1
+"AirSense (B)","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic
+is able to automatically detect pollution events","N/A",0,1,"Hygrometer, Thermometer, External Sensor",0,"N/A","N/A",0,0,0,"N/A",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"N/A",0,0,0,0,0,0,1,0,0,1,0,0,0,0,3,0,1,0,"N/A","N/A","Air Quality Analysis","N/A",1
+"Allergymap","N/A",0,0,0,"N/A",0,1,1,0,0,"Central Server
+data processing method is centralized - centralized platform",1,1,0,1,"Yes
+provides user awareness since extraction of personal context",0,0,1,"Participatory","MySQL",1,0,"GPS, WiFi, Bluetooth, VAS Survey",0,"N/A","Blog, discussion forums, informs patients about their health status and treatment progress, A user-based recommendation system for nearest hospitals and pharmacies using localization data",0,0,0,"N/A",0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"2018, 2019",1,"Yes
+large-scale sensing data",0,0,1,0,0,0,0,1,0,0,0,0,0,0,4,1,0,1,"N/A","N/A","Allergies und Allergy maps","Yes",0
+"ALSense","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory
+scanning QR Codes in a room","N/A",0,1,"WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"2017, 2018",1,"N/A",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Yes
+(21 users / 1 month)
+were scanning QR codes","N/A","WiFi fingerpring-based room-level indoor localization.
+
+Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, lying down) wearing a smartphone 
+on the waist.","N/A",1
+"APISENSE","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,1,"Yes
+foundation for building a new generation of context-aware services",0,1,1,"Participatory + Opportunistic","MongoDB",0,0,"GPS, Bluetooth, Accelerometer",1,"Yes (from website)","credit points used to provide rankings, involvement badges or even coupons to reward participants, 
+serious game",1,1,0,"Android + iOS",2,0,4,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,"2013, 2013, 2014, 2014",2,"Yes
+scalability & security of the 
+server infrastructure",1,0,1,0,0,0,0,1,0,0,0,0,0,0,3,0,0,0,"N/A","Push and Pull","Participative platform for building MCS applications","Yes",0
+"Apollon","Apollon-Project",0,0,1,"Google Play Store",1,0,0,1,0,"Cloud",0,1,0,1,"Yes",0,1,1,"Participatory + Opportunistic","MongoDB",0,0,"Microphone, Luminosity sensor (Photometer), Proximity sensor, 
+Accelerometer, Gyroscope, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,11,0,0,0,0,0,0,0,0,0,0,2,5,1,1,2,"2020, 2020, 2019, 2016, 2017, 2017, 2017, 2017, 
+2016, 2017, 2018",2,"Yes",1,0,0,0,0,0,0,1,1,0,0,1,1,1,6,0,0,0,"Yes
+(4335 readings / 1 month)","N/A","Urban pollution and noise monitoring","Yes",0
+"AWARE","AWARE",0,0,0,"N/A",0,1,0,1,0,"Google Cloud & App Engine, Amazon EC, Microsoft Azure",0,1,0,1,"Yes",0,1,1,"Participatory - EMA
+ + 
+Opportunistic - AWARE was used to abstract several sensors to capture users’proximity habits to their mobile devices","MySQL (Server) + SQLite (Client) ",1,0,"Accelerometer, Magnetometer, Photometer, Survey, GPS, WiFi, Bluetooth",1,"Yes (from website + paper)","Participants received $20 for completing the baseline survey and $2 for each day they completed EMA",1,1,0,"Android + iOS",2,0,3,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,"2015, 2018, 2020",2,"Yes",1,0,1,0,0,0,0,1,0,0,1,0,1,0,7,1,0,1,"Yes
+EMA (38 users / 28 days)","N/A","Alcohol Use","Yes",0
+"BeTogether","BeTogether",0,0,0,"N/A",0,1,0,1,0,"Cloud Firestore",0,1,0,1,"Yes",0,1,0,"Opportunistic","Firebase",0,0,"GPS, WiFi, Light Sensor (Photometer), Cellular",1,"Yes (from paper)","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2020,1,"N/A",0,0,0,0,0,1,0,1,0,0,0,0,1,0,4,0,0,1,"Yes
+Dataset: 550 crowdsensors 
+/ 1 year","N/A","Urban pollution monitoring","N/A",1
+"BikeL","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"GPS, Photometer",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2020,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,1,0,2,0,0,0,"N/A","N/A","System to monitor street lighting conditions","N/A",1
+"BikeNet","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"Accelerometer, Bluetooth, Camera, GPS, 
+Magnetometer, Microphone, WiFi, External Sensors",0,"N/A","N/A",0,0,1,"Symbian",1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2010,1,"Yes",1,0,1,0,1,0,1,1,0,0,1,1,0,0,8,0,0,1,"N/A","N/A","We collect data about the cyclist (heart rate, galvanic skin response),
+about the cyclist’s performance (wheel speed, pedaling cadence, frame tilt, frame lateral tilt, magnetic heading), and about the cyclist’s surroundings (sound level, carbon dioxide level, ferromagnetic objects, e.g., cars).","N/A",1
+"CARDAP","N/A",0,0,0,"N/A",0,1,1,1,1,"Fog + Cloud (Amazon Web Service)",0,2,0,1,"Yes",0,1,0,"Opportunistic
+Monitoring citizen activity (jogging, walking, standing)","SQL
+The query manager uses SQL to resolve incoming requests",1,0,"Accelerometer",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,"2014, 2015",1,"Yes",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Yes","N/A","Monitoring citizen activity (jogging, walking, standing) in a Smart City","N/A",1
+"CAROMM","N/A",0,0,0,"N/A",0,1,1,1,0,"Amazon Elastic Compute Cloud (EC2)",0,1,0,1,"Yes",0,1,0,"Opportunistic - see Figure 5 & 7
+The real-time information delivered includes aggregation of sensor feeds from mobile users in that location pertaining to physical phenomena such as light levels, temperature, estimates of crowd intensity, as well videos/photos (and the context in which those photos were taken such as day, night), and recent social media posts.","Amazon SimpleDB",0,0,"Accelerometer, Proximity Sensor, Magnetometer, Thermometer, 
+Light Sensor (Photometer), Gyroscope, Pressure (Barometer)",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2012,1,"Yes",1,1,0,0,0,0,0,0,1,0,1,0,1,1,7,0,1,0,"Yes","N/A","Collects sensory information requested by other users 
+about a specific location","N/A",1
+"CarTel","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,1,0,"Opportunistic","PostgreSQL",1,0,"GPS, WiFi, Bluetooth, Camera",0,"N/A","N/A",0,0,0,"N/A",0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"2006, 2007",1,"N/A",0,0,1,0,1,0,0,1,0,0,0,0,0,0,4,0,0,1,"Yes","N/A","Processes data from sensors on cars","N/A",1
+"Centaurus","Centaurus,
+Crowd Queue",0,0,0,"N/A",0,1,0,1,0,"Cloud
+Amazon Web Services",0,1,0,1,"Yes",0,1,1,"Participatory + Opportunistic","MySQL",1,0,"GPS, Accelerometer, WiFi",0,"N/A","$1/day per user, Coupons",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"Yes",1,0,0,0,0,0,0,1,0,0,0,0,0,0,3,0,0,1,"Yes
+(29 users / 1 month)
+for data collection","N/A","Collects data from people who are waiting in a queue","N/A",1
+"CitySpeed","CitySpeed",0,0,1,"Google Play Store",1,0,0,1,0,"Firebase Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic
+In short, the developed app will continuously estimate the current instantaneous speed of a smartphone, which is indirectly measured by considering its movement over time. Such computed speeds can be reliably considered as the speeds of vehicles, since the smartphones are “moving” while they are being carried by a driver or passenger.","PostgreSQL + SQLite + Firebase",1,0,"GPS",1,"Yes (from paper)","A new perspective for gathering information about vehicles
+while saving time for drivers, popularizing services such asWaze and Google Maps. This is, in fact,
+the main incentive for users to install and execute such applications. In the case of the CitySpeed platform, as it is implemented, the benefit is indirect in the form of better
+ planning of roads and traffic, which may only be felt in future.",1,1,0,"Android + iOS",2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2019,1,"Yes",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,"Yes","N/A","Monitoring vehicular speeds","Yes",0
+"CityWatcher","CityWatcher",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory 
+an Android application for recording video streams,
+ annotating them with location, timestamp and additional context.
+Users can use CityWatcher application for sending their automatically or manually annotated reports about road accidents, or any other city problems, e.g., road potholes and cracks. Application features include Video recording, Video annotating (gps coordinates, time), Self-discovery, auto register with middleware ,Request processing (like ‘Have you been(time, location)’), Asking the owner to watch and share video, Loading part of the video to the cloud","SQLite",1,0,"Camera, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,"2014, 2015",1,"N/A",0,0,0,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,"N/A","N/A","Annotating Video Data Streams","N/A",1
+"ContextAiDe","InvestigatorAssist",0,0,0,"N/A",0,1,0,1,1,"Fog + Cloud",0,2,0,1,"Yes",0,0,1,"Participatory
+Input may also include an image or silhouette of the perpetrator. We estimate the time starting from request for image capture...","N/A",0,1,"Camera, GPS, Accelerometer, Orientation (Gyroscope)",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"2019, 2019",1,"Yes
+large-scale evaluation",1,0,0,0,1,0,0,1,1,0,0,0,0,0,4,0,0,0,"Yes
+(14 android devices)
+for image capture","N/A","Image processing","N/A",1
+"CRATER","CRATER",0,0,0,"N/A",0,1,0,1,0,"Microsoft Azure Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","SQL
+The results of the detector are temporarily stored in a file until it is uploaded to an SQL database hosted in the Azure cloud",1,0,"GPS, Accelerometer",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"N/A",1,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes","N/A","Estimating road conditions","N/A",1
+"CrowdAtlas","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic
+it automatically generates high quality map updates","N/A",0,1,"GPS",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"Yes
+large-scale",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,"N/A","N/A","Updating maps","N/A",1
+"CrowdITS","N/A",0,0,0,"N/A",0,1,1,1,0,"Google Cloud To Device Messaging",0,1,0,0,"N/A",1,1,1,"Participatory - CrowdITS interface for posting an event. An event is auto-stamped with current time and geo-location
++
+Opportunistic - In pervasive mode, the mobile phone periodically enters its sensory data (e.g. GPS) which can then be used to determine vehicle’s speed and direction","MySQL",1,0,"GPS",0,"N/A","N/A",1,1,0,"Android + iOS",2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2012,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,"N/A","N/A","Posting an event of the road","N/A",1
+"CrowdNavi (A)","CrowdNavi",0,0,0,"N/A",0,1,0,1,0,"Amazon EC2 Cloud platform",0,1,0,0,"N/A",1,1,0,"Opportunistic
+If enabled, the app will run in the background, monitoring the moving
+trajectory of a car using GPS, and periodically reporting the location
+information to a backend server.","N/A",0,1,"Accelerometer, GPS, Gyroscope, Magnetometer",0,"N/A","N/A",1,1,0,"Android + iOS",2,0,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,"2016, 2016",1,"Yes
+large-scale experiments",1,0,0,0,0,0,0,1,1,0,1,0,0,0,4,0,0,0,"N/A","N/A","CrowdNavi collects the crowdsourced driving information
+from users to identify their local driving patterns, and recommend
+the best local routes for users to reach their destinations.","N/A",1
+"CrowdNavi (B)","CrowdNavi",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,1,"Yes",0,0,1,"Participatory
+They are requested to take a photo of the starting point and the final destination. During the travel, the system collects their motion sensor data. Participants are requested to take a picture of reference objects along the route that are close and also easy to spot. After they reach the destination, they can upload the collected data to the server","N/A",0,1,"GPS, Camera, Accelerometer, Gyroscope",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"N/A",1,0,0,0,1,0,0,1,1,0,0,0,0,0,4,0,0,0,"Yes
+(30 students / 7 days)
+collected 594 trajectory segments 
+and 727 images","N/A","Visual path and navigation","N/A",1
+"CrowdOS","WeSense",0,1,0,"Apple App Store",1,0,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,1,"Participatory + Opportunistic
+Users can post and perform various sensing tasks on it, such as road congestion information collection, air quality condition monitoring, product price research","MySQL",1,0,"Camera, Gyroscope, Proximity Sensor, GPS",1,"Yes (from website)","In WeSense, a combination of virtual and cash incentives is used.",1,1,0,"Android + iOS",2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,"2020, 2020",1,"Yes",0,0,0,0,1,0,0,1,1,0,0,0,0,1,4,0,0,0,"Yes","N/A","We developed a CAP, WeSense, based on CrowdOS architecture.
+Users can post and perform various sensing tasks on it, such as road congestion information collection, air quality condition monitoring, product price research, etc.","Yes",0
+"CrowdSense@Place","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes
+general building block for man mobile and context-aware applications",0,1,0,"Opportunistic","N/A",0,1,"Camera, Microphone, GPS, WiFi, Cellular",0,"N/A","Bonus payements or Data competition. Everyone receives the same baseline payment for their participation, namely, the equivalent of 100 USD. Similarly, within each scheme, members are ranked based on a simple metric that is based on the number of images they capture (with a safety measure not reward images taken all in the same place). The key difference between the two compensation schemes is that under BP participants receive a bonus payment (equivalent of 20 USD) if they are in the top five participants at the end of the study. In comparison, under DC participants receive no additional money but have their performance feedback presented as a game in which they can compete against each other.",1,0,0,"Android",1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,"2012, 2013",2,"Yes",0,0,0,0,1,1,0,1,0,0,0,1,0,0,5,0,0,1,"Yes
+(36 users / 7 weeks)
+collected data from 1241 places","N/A","Opportunustically captured images of places,
+ as well as audio clips","N/A",1
+"CrowdTracking","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,1,"Yes
+CrowdTracking utilizes images and sensor readings to extract
+context information",0,0,1,"Participatory - On the participant side, some trackers take and upload photographs of the vehicle","N/A",0,1,"Camera, GPS, Accelerometer, Magnetometer",0,"N/A","N/A",1,0,0,"Android",1,0,3,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,"2019, 2017, 2017",1,"N/A",1,0,0,0,1,0,0,1,0,0,1,0,0,0,4,0,0,0,"Yes","N/A","Real-Time vehicle tracking","N/A",1
+"D&Rsense","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","MySQL",1,0,"Accelerometer, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"2018, 2018",1,"N/A",1,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes","N/A","Driving style analysis and road anomaly detection","N/A",1
+"DangerSystem","Building Manager + Tenants",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,0,"N/A",1,1,1,"Participatory - Building Manger can record
+audio from smart-phones microphones 
++
+Opportunistic - The mobile application, installed in users’ smartphones, detects that the user is running and that a loud noise is present in the surroundings","N/A",0,1,"Microphone",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"N/A",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Yes
+(15 users)
+did a test of a dummy emergency","N/A","Managing occupants safety in smart buildings","N/A",1
+"DisCoPar","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","MongoDB",0,0,"Microphone, GPS, Camera, Survey",0,"N/A","N/A",0,0,0,"N/A",0,1,3,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,"2016, 2018, 2015",2,"N/A",0,0,0,0,1,0,0,1,0,0,0,1,0,0,4,1,0,0,"Yes
+(9 students / 30 minutes)
+trying to design an app","N/A","Measuring sound pressure levels","N/A",1
+"DriveMU","DriveMU",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,1,"Participatory + Opportunistic","Firebase Realtime DB",0,0,"GPS, Accelerometer",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2019,1,"Yes",1,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes","N/A","Real-Time road traffic monitoring","N/A",1
+"EasyHarvest","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server(ich)
+data is aggregated at a central repository on the server",0,0,0,1,"Yes",0,1,0,"Opportunistic","N/A",0,1,"Location (GPS, WiFi)",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2014,1,"Yes
+large-scale sensing platform",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"N/A","N/A","Deployment and management of sensing applications","N/A",1
+"Empath2","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud
+Amazon Web Services (EC2) + Google App Engine",0,1,0,0,"N/A",1,1,0,"Opportunistic
+an activity monitoring module that consists of a wetness sensor only, and an acoustic based speech module. The primary objective of this study is the ability to detect when a wetness episode occurs.","MySQL + SQLite3 + MongoDB",1,0,"Accelerometer, Microphone, Survey",0,"N/A","N/A",0,0,0,"N/A",0,1,2,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,"2015, 2011",1,"N/A",1,0,0,0,0,0,0,0,0,0,0,1,0,0,3,1,0,0,"(12 patients / 5-8 nights)
+participated in the study","N/A","Monitoring on dementia, depression, epilepsy and stress","N/A",1
+"FindingNemo","FindingNemo",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic
+The FindingNemo App continuously tracks the BLE tag even in sleep mode with low-duty-cycle for better energy efficiency. If the feedback signal from BLE tag is lost for a period of time, the App will be launched to the front and the “lost” alert will be sent to the user.","N/A",0,1,"Bluetooth, GPS",0,"N/A","Credit, which you can spend when you need crowdsensing services in the future",0,1,0,"iOS",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2014,1,"N/A",0,0,1,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes","N/A","Finding a lost child","N/A",1
+"FlierMeet","FlierMeet",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,1,"Yes",0,0,1,"Participatory","N/A",0,1,"Accelerometer, Light sensor (Photometer), Magnetometer, GPS",0,"N/A","Each participant was paid a 50 ~ 100 RMB shopping card according to their number of reposts",1,0,0,"Android",1,0,3,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,"2014, 2015, 2014",1,"Yes
+large-scale data processing",1,0,0,0,0,0,0,1,0,0,1,0,1,0,4,0,0,0,"Yes
+(38 students / 8 weeks)
+collected 2035 reposts
+","N/A","Public information reposting, tagging and sharing","N/A",1
+"Flux","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,0,"N/A","SQLite",1,0,"Accelerometer, GPS, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"N/A",1,0,0,0,0,0,0,1,0,0,0,0,0,0,3,0,0,1,"Yes
+(23 devices / 2 hours)
+33 trips along the prescribed survey paths","N/A","Scaning area for WiFi coverage analysis","N/A",1
+"FollowMe","FollowMe",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory","N/A",0,1,"Location (GPS, WiFi)",0,"N/A","Money for a rare pokemon on demand or reputation points to get higher social recognition level",0,0,0,"N/A",0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"N/A","N/A","Reporting the location of pokemon","N/A",1
+"HySense","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,1,1,"Participatory + Opportunistic","N/A",0,1,"Hygrometer (E), GPS (E), Thermometer (E), Exter Sensor (misli sa na ova tri)",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"Yes
+large-scale",0,0,0,0,0,0,0,1,0,1,0,0,0,0,3,0,1,0,"N/A","N/A","Ozone monitoring","N/A",1
+"iMap (A)","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","N/A",0,1,"GPS, WiFi",0,"N/A","Service incentive",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"Yes
+large-scale",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"N/A","N/A","Outdoor Radio Signal Strength Map","N/A",1
+"iMap (B)","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes",0,1,0,"Opportunistic","N/A",0,1,"Accelerometer, Barometer, GPS, Hygrometer, Microphone, Thermometer, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"N/A",1,1,0,0,0,0,0,1,0,1,0,1,0,0,7,0,1,1,"N/A","N/A","Indoor mapping","N/A",1
+"InstantSense","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes",0,0,1,"Participatory","N/A",0,1,"Camera, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"N/A",0,0,0,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,"N/A","N/A","Event localization","N/A",1
+"IONavi","IONavi",0,0,0,"N/A",0,1,0,1,0,"Cloud (Microsoft Azure Platform)",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"Accelerometer, Gyroscope, Magnetometer, WiFi, GPS, 
+Light sensor (Photometer), Cellular",1,"Yes (from author)","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"N/A",1,0,0,0,0,1,0,1,1,0,1,0,1,0,7,0,0,1,"Yes
+(20 volunteers)
+","N/A","Indoor-Outdoor navigation service","N/A",1
+"iSee","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory","N/A",0,1,"Accelerometer, GPS, Magnetometer",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"Yes",1,0,0,0,0,0,0,1,0,0,1,0,0,0,3,0,0,0,"Yes","N/A","Detecting and localizing events in outdoor environments","N/A",1
+"Macaco","MacacoApp",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,1,"Yes
+context data",0,1,0,"Opportunistic","MySQL + SQLite",1,0,"GPS, WiFi, Accelerometer, Bluetooth, Cellular",0,"N/A","Financially, by reimbursing the data plan fee",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"N/A",1,0,1,0,0,1,0,1,0,0,0,0,0,0,5,0,0,1,"Yes
+(21 users / 100-500 days)","N/A","Location sensing","Yes",0
+"Maestroo","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","SQLite",1,0,"Accelerometer, GPS, Thermometer",0,"N/A","N/A",1,1,1,"Android + iOS + Windows",3,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"Yes",1,0,0,0,0,0,0,1,0,0,0,0,0,0,3,0,1,0,"Yes
+(3 devices)","N/A","Exploiting the mobility of people","N/A",1
+"Mahali","Mahali",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"GPS, WiFi",1,"Yes (from website)","Providing high-resolution space weather images and updates about their environment",0,0,0,"N/A",0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2014,1,"Yes",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"N/A","N/A","MCS in space weather monitoring","Yes",0
+"MAQS","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,1,1,"Participatory + Opportunistic
+Our MAQS phone application continuously collected Wi-Fi signals, and requested manual labeling when users entered rooms.","N/A",0,1,"Accelerometer, Bluetooth, Hygrometer (E), Thermometer (E), 
+Photometer (E), WiFi, External Sensors (CO2)",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2011,1,"N/A",1,0,1,0,0,0,1,0,0,1,0,0,1,0,7,0,1,1,"N/A","N/A","Air pollution","N/A",1
+"Matador","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes",0,1,1,"Participatory + Opportunistic","N/A",0,1,"Accelerometer, Camera, GPS, Microphone, Survey",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,"2013, 2013",1,"N/A",1,0,0,0,1,0,0,1,0,0,0,1,0,0,5,1,0,0,"N/A","N/A","Localization","N/A",1
+"mCerebrum","mCerebrum",1,0,0,"APK",0,0,0,1,0,"Cloud",0,1,0,1,"Yes",0,0,1,"Participatory - EMA","SQLite",1,0,"Accelerometer, Bluetooth, GPS, Gyroscope, Survey",1,"Yes (from website)","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"Yes",1,0,1,0,0,0,0,1,1,0,0,0,0,0,5,1,0,0,"Yes","N/A","Healthcare","Yes",0
+"MCSaaS","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"Accelerometer, GPS, WiFi, Gyroscope",0,"N/A","Possibility to earn credits, rewards",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"Yes
+large-scale",1,0,0,0,0,0,0,1,1,0,0,0,0,0,4,0,0,1,"Yes","N/A","Pothole detection","N/A",1
+"McSense","McSense",1,0,0,"APK",0,0,0,0,0,"Central server
+a centralized mcs system",0,0,0,0,"N/A",1,1,1,"Participatory - Manual tasks, e.g., photo tasks
++
+Opportunistic - Automated tasks, e.g., sensing tasks using accelerometer and GPS sensors; sensing tasks using Bluetooth.","PostgreSQL + Derby",1,0,"GPS, Camera, Accelerometer, Bluetooth, WiFi",1,"Yes (from author)","Some tasks have a monetary value associated with the task, which is paid on the task’s successful completion",1,0,0,"Android",1,0,3,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,"2015, 2013, 2013",1,"N/A",1,0,1,0,1,0,0,1,0,0,0,0,0,0,5,0,0,1,"Yes","N/A","By observing the daily activities, we could find out how much exercise each
+student is getting daily and derive interesting statistics such as which departments have the most active and healthy students","Yes",0
+"Medusa","Medusa",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","MySQL",1,0,"Accelerometer, Bluetooth, Camera, GPS, Microphone, WiFi",1,"Yes (from author)","Payment for uploading videos",1,0,0,"Android",1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2012,1,"Yes",1,0,1,0,1,0,0,1,0,0,0,1,0,0,6,0,0,1,"Yes","N/A","Programming framework for crowdsensing applications (video recordings)","N/A",1
+"Mew","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,1,0,"Opportunistic","MySQL",1,0,"Accelerometer, GPS, Microphone, WiFi",1,"Yes (from paper)","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"Yes",1,0,0,0,0,0,0,1,0,0,0,1,0,0,4,0,0,1,"N/A","N/A","Calculating the distance travelled by users and sound levels in a building","N/A",1
+"MobiGroup","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes",0,0,1,"Participatory
+We asked the volunteers to capture poster ads that were
+ interesting or important to them.","SQLite",1,0,"Accelerometer, GPS, Microphone, WiFi, Bluetooth",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"N/A",1,0,1,0,0,0,0,1,0,0,0,1,0,0,5,0,0,1,"Yes
+(38 students / 8 weeks)
++
+(45 students / 6 months)","Push and Pull","Social activity organization and suggestion","N/A",1
+"MobiSens","Lifelogger + SensCare",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,0,"N/A",1,1,0,"Opportunistic
+Uses smart phones carried by the elderly to sense their activities and to detect anomaly such as accidental falls or getting lost due to Alzheimer disease.","N/A",0,1,"Accelerometer, GPS, WiFi, Magnetometer, Gyroscope, Thermometer, Bluetooth, Camera",0,"N/A","Micro payments, annotating users' activities and sharing them among friends",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"N/A",1,0,1,0,1,0,0,1,1,0,1,0,0,0,8,0,1,1,"Yes","N/A","Sensing activities of elderly","Yes",0
+"MOSDEN","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"Thermometer, Magnetometer, Light (Photometer), Microphone, Accelerometer, Gyroscope",1,"Yes (from author)","N/A",1,0,0,"Android",1,0,4,0,0,0,0,0,0,0,1,2,1,0,0,0,0,0,"2014, 2014, 2013, 2015",1,"Yes",1,0,0,0,0,0,0,0,1,0,1,1,1,0,6,0,1,0,"Yes","N/A","Environmental monitoring of noise pollution level","N/A",1
+"MyCompanion","MyCompanion",0,0,0,"N/A",0,1,0,1,0,"Firebase Cloud Server",0,1,0,0,"N/A",1,1,0,"Opportunistic
+The app keeps uploading the current location directly to the
+cloud server at the fixed intervals. The data logging and
+uploading interval is fixed to 15 minutes.","Firebase Realtime DB",0,0,"Bluetooth, GPS, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2019,1,"N/A",0,0,1,0,0,0,0,1,0,0,0,0,0,0,3,0,0,1,"Yes","N/A","Suggesting friends o users having similar lifestyles","N/A",1
+"NoiseSense (A)","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory
+Figure 6","N/A",0,1,"Microphone, GPS",0,"N/A","N/A",1,0,1,"Android + Windows",2,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,"2019, 2016",1,"N/A",0,0,0,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,"Yes","N/A","Noise pollution","N/A",1
+"NoiseSense (B)","NoiseSense",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,1,"Yes",0,0,1,"Participatory","MongoDB",0,0,"Microphone, GPS, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"2017, 2019",1,"N/A",0,0,0,0,0,0,0,1,0,0,0,1,0,0,3,0,0,1,"Yes","N/A","Noise pollution monitoring of the city","N/A",1
+"NoizCrowd","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory","SciDB",0,0,"Microphone, GPS",0,"N/A","N/A",0,1,0,"iOS",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"Yes",0,0,0,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,"Yes","N/A","Noise pollution monitoring of the city","N/A",1
+"ParkCar","ParkCar",0,0,0,"N/A",0,1,0,1,0,"Google Cloud Messaging",0,1,0,1,"Yes",0,1,1,"Participatory + Opportunistic","N/A",0,1,"Location (GPS, WiFi)",0,"N/A","Virtual currency that may be used to gain access to other services",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"Yes",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"Yes","N/A","Finding available parking spots","N/A",1
+"ParticipAct","ParticipAct",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,1,"Participatory - Active sensing is typically associated
+with a graphical user interface (GUI) to allow easy user interaction while performing the required active sensing action.
++
+ Opportunistic - Passive sensing, instead, sits atop sensing management that supports all passive data collection operations from
+all available physical and logical sensors","MongoDB + MySQL + PostgreSQL",1,0,"Accelerometer, Bluetooth, Gyroscope, GPS, WiFi, Microphone, Camera, Cellular, Survey",1,"Yes (from website)","Each month we renew smartphone leases only if the participant has taken part in enough MCS campaigns.
+Gamification (Reputation, Ranking, Points, Badges)",1,0,0,"Android",1,0,5,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,"2014, 2015, 2015, 
+2015, 2015",3,"Yes",1,0,1,0,1,1,0,1,1,0,0,1,0,0,9,1,0,1,"Yes
+(300 students / 1 year)","N/A","The client side of the companion app relies on ParticipAct’s capability of
+geolocalizing users and delivering specific tasks such as surveys, tagging places, and taking pictures.","Yes",0
+"Pazl","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud
+Google App Engine",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"Accelerometer, Gyroscope, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"N/A",1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,1,"Yes
+(5 participants)","N/A","Localization and monitoring of indoor environments","N/A",1
+"PEIR","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes
+looks up contextual information",0,0,1,"Participatory","PostgreSQL",1,0,"GPS",0,"N/A","N/A",0,0,1,"Symbian + Windows",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2009,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,"Yes","N/A","Provides information abour environmental exposure (CO2). 
+Users are tagging and annotating location traces","N/A",1
+"PRISM","Citizen Journalist,
+Party Thermometer,
+Road Bump Monitoring",0,0,0,"N/A",0,1,0,0,0,"Central server
+centralized processing on the application server",0,0,0,0,"N/A",1,1,1,"Participatory + Opportunistic","N/A",0,1,"Microphone, Camera, GPS, Accelerometer, Bluetooth, WiFi",0,"N/A","N/A",0,0,1,"Windows",1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2010,1,"Yes",1,0,1,0,1,0,0,1,0,0,0,1,0,0,6,0,0,1,"Yes
+(15 devices)","Push","Reporting how good the party is.
+Detecting and locating road bumps automatically","N/A",1
+"PublicSense","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,0,1,"Participatory","N/A",0,1,"Camera, GPS",0,"N/A","N/A",0,0,0,"N/A",0,1,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,"2016, 2015",1,"N/A",0,0,0,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,"N/A","N/A","Road infrastructure","N/A",1
+"RuPS","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory","N/A",0,1,"Camera, Microphone, GPS",0,"N/A","Reward (in the form of redeemable reward points) or in the form of discounts in agro-advisory
+services, monthly data packs and agro-commodity vouchers",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"Yes",0,0,0,0,1,0,0,1,0,0,0,1,0,0,3,0,0,0,"Yes","N/A","Farmers report Geo-tagged events using images and voice
+clips along with the information tags 
+(diseases, pests, nutrient disorders)","N/A",1
+"Sensarena","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,1,0,"Opportunistic
+After receiving notifications of the first assignment, users
+can accept or reject to participate to the announced sensing
+campaigns. By accepting, users report their actual positions
+and their handsets’ battery level to the platform core","MongoDB",0,0,"Microphone, Accelerometer, Barometer",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"N/A",1,1,0,0,0,0,0,0,0,0,0,1,0,0,3,0,0,0,"N/A","N/A","N/A","N/A",1
+"Sense-Aid","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,0,1,"Participatory","N/A",0,1,"Barometer, GPS, Cellular",0,"N/A","We promise as incentive to the users $25 Amazon gift card at the end of the 7 day period of the campaign.",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,"2017, 2017",2,"N/A",0,1,0,0,0,1,0,1,0,0,0,0,0,0,3,0,0,0,"Yes
+(20 students / 6 days)","N/A","The user study involved creating an atmospheric pressure map of
+parts of the campus, using barometer readings from smartphones of
+multiple volunteer student participants","N/A",1
+"SenseAPP","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","Firebase + Firestore",0,0,"Accelerometer, Hygrometer, GPS, Gyroscope, Microphone, 
+Thermometer, WiFi, External Sensor",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2020,1,"Yes",1,0,0,0,0,0,1,1,1,1,0,1,0,0,8,0,1,1,"N/A","N/A","Air and noise monitoring","N/A",1
+"SenseDCity","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","N/A",0,1,"GPS, Survey",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,"Yes
+(30 volunteers / 45 days)","N/A","Can be used by the citizen to inform about their health issues (if any) and conditions of the roads they traverse throughout the day in real-time.","N/A",1
+"SenseDroid","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,1,"Yes",0,1,0,"Opportunistic","SQLite",1,0,"Accelerometer, Barometer, Magnetometer, Gyroscope, Thermometer, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,"2014, 2015",2,"Yes",1,1,0,0,0,0,0,0,1,0,1,0,0,0,6,0,1,1,"N/A","N/A","Let us consider a scenario where an Android Phone A wants to get the temperature of the place where another Android Phone B is located","Yes",0
+"SenseMyCity","SenseMyCity",0,0,1,"Google Play Store",1,0,0,1,0,"Cloud",0,1,0,0,"N/A",1,1,0,"Opportunistic","PostgreSQL + SQLite + MySQL",1,0,"Accelerometer, Barometer, Bluetooth, GPS, Gyroscope, 
+Magnetometer, Microphone, Thermometer, WiFi, Survey",0,"N/A","N/A",1,0,0,"Android",1,0,5,0,0,0,0,0,1,0,0,1,0,2,0,0,0,1,"2014, 2016, 2016,
+2011, 2020",2,"Yes",1,1,1,0,0,0,0,1,1,0,1,1,0,0,10,1,1,1,"Yes","N/A","One of the projects leveraging our platform aimed at cardiac stress detection among public bus drivers [7]. The biomonitoring external devices supported by our app can gather cardiac information, which was used to estimate stress and create the stress map shown in Fig. 10.
+Our platform was also used to connect to OBD external sensors and gather vehicle information such as speed, fuel consumption and other driving metrics","Yes",0
+"SensingGO","SensingGO",0,0,1,"Google Play Store",1,0,0,0,0,"N/A",0,0,1,0,"N/A",1,1,0,"Opportunistic
+Next, the user turns on the app, which starts to collect data in background.","N/A",0,1,"Accelerometer, Barometer, GPS, Magnetometer, Photometer, Proximity, WiFi",1,"Yes
+Bitbucket (from paper)","In SensingGO, we integrate social activity (e.g., friends recommendation) and rewarding activity (e.g.,
+monetary rewards) to motivate people to travel around, and thus collecting data for us. We also hide virtual coins in certain geographic locations.  Users will not know where are the virtual coins unless they visit that places.",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"N/A",1,1,0,0,0,0,0,1,0,0,1,0,1,1,7,0,0,1,"Yes
+(316 volunteers / 10 months)","N/A","To motivate people to travel around, and thus collecting data for us. The more the user travels, the more friends with high similarity would be recommended (Localization)","Yes",0
+"SenSquare","Crowdroid",0,0,0,"N/A",0,1,0,0,0,"Central server
+client-server centralized system",0,0,0,0,"N/A",1,0,0,"N/A","MySQL",1,0,"Barometer, Photometer, Noise sensor (microphone), 
+Hygrometer, Thermometer, GPS, WiFi",1,"Yes (from author)","Discount in the monthly phone plan for a period of time",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,"2016, 2017",2,"N/A",0,1,0,0,0,0,0,1,0,1,0,1,1,0,7,0,1,1,"Yes","N/A","Localization + Environmental Monitoring","Yes",0
+"Sensus","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory","N/A",0,1,"GPS, Survey",0,"N/A","N/A",1,1,0,"Android + iOS",2,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,"N/A","N/A","Healthcare","N/A",1
+"SmartBike","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,1,0,"Opportunistic
+periodically sends data","N/A",0,1,"Accelerometer, Bluetooth, Barometer, GPS, Hygrometer, Thermometer, External Sensor",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2017,1,"N/A",1,1,1,0,0,0,1,1,0,1,0,0,0,0,7,0,1,0,"N/A","N/A","Air pollution + Localization","N/A",1
+"SmartRoad","SmartRoad",0,0,0,"N/A",0,1,0,0,0,"Central server",0,0,0,0,"N/A",1,0,1,"Participatory","MySQL",1,0,"GPS",0,"N/A","Will be able to enjoy services that are enabled by our system",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"Yes
+large-scale",0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,"Yes
+(35 volunteers / 2 months)","N/A","Road sensing system that detects and identifies traffic regulators, 
+traffic lights, and stop signs","N/A",1
+"SoundCity","Ambiciti",0,1,1,"Google Play Store,
+Apple App Store",1,0,0,0,0,"N/A",0,0,1,1,"Yes
+context-related sensors",0,1,1,"Participatory + Opportunistic","MongoDB",0,0,"GPS, Microphone",0,"N/A","N/A",1,1,0,"Android + iOS",2,0,3,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,"2016, 2018, 2018",2,"Yes",0,0,0,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,"Yes","N/A","Our experiment revolves around the public release of a mobile app for urban pollution monitoring that builds upon a dedicated mobile crowdsensing middleware.","Yes",0
+"SoundOfTheCity","SoundOfTheCity",0,0,0,"N/A",0,1,0,0,0,"Central server",0,0,0,1,"Yes",0,0,1,"Participatory","MySQL + SQLite",1,0,"GPS,  Microphone, Proximity sensor, WiFi",1,"Yes (same university) ","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,1,0,1,4,0,0,1,"N/A","N/A","Continuous noise monitoring","Yes",0
+"SoundSense","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes
+framework for modeling personalized context",0,1,1,"Participatory + Opportunistic","SQLite",1,0,"Microphone",0,"N/A","N/A",0,1,0,"iOS",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2009,1,"Yes",0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Yes","N/A","Audio event classification system","N/A",1
+"Speedometer","Speedometer",0,0,0,"N/A",0,1,0,1,0,"Google Cloud Platform",0,1,0,0,"N/A",1,0,1,"Participatory
+Participating users are expected to run the Speedometer app on
+their mobile devices (e.g. smartphones, tablets) while driving, or using means of transportation","Firebase Realtime DB",0,0,"Accelerometer, GPS, WiFi, Cellular (cell tower)",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2020,1,"N/A",1,0,0,0,0,1,0,1,0,0,0,0,0,0,4,0,0,1,"Yes (245 users / 6 months)","N/A","Measuring the Quality of Street Surfaces","N/A",1
+"Stack4Things","PotHolesDetection",0,0,0,"N/A",0,1,0,1,1,"Google Cloud Messaging + Fog",0,2,0,0,"N/A",1,1,0,"Opportunistic
+This information is collected by the PDM app running in background
+on contributor devices to capture sudden changes on acceleration which could be related to a pothole","MySQL (IoTronic) + MongoDB",1,0,"Accelerometer, GPS",1,"Yes (from author)","N/A",1,0,0,"Android",1,0,6,0,0,0,0,0,0,0,0,1,1,2,1,0,0,1,"2016, 2017, 2016, 2015,
+2020, 2014",3,"Yes",1,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes (1 month)","Push and Pull","Pot Hole Detection and Maping","Yes",0
+"SurroundSense","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,1,"Yes
+Active/Passive Behavior Sensing has been utilized for contextaware computing",0,1,0,"Opportunistic
+The phone senses the ambience automatically.","N/A",0,1,"Accelerometer, Camera, GPS, Microphone, Photometer, WiFi",0,"N/A","N/A",0,0,1,"Symbian",1,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,"2009, 2009",1,"N/A",1,0,0,0,1,0,0,1,0,0,0,1,1,0,6,0,0,1,"N/A","N/A","Mobile Phone Localization","N/A",1
+"Third-Eye","Third-Eye",0,0,0,"N/A",0,1,0,0,0,"N/A",0,0,1,0,"N/A",1,0,1,"Participatory
+The app interface guides the user to take outdoor images","N/A",0,1,"Camera",0,"N/A","The value of each task equals 0.2 RMB. The reward is proportional to the number of tasks participant 
+has accomplished. We rank participants via the number of completed tasks every day, and choose the top-5 participants to pay 30, 15, 8, 4 and 3 RMB, respectively.  When a participant completes a task, he/she will received a red envelope with a random value as the reward. The average value of red envelopes is 0.2 RMB.",1,1,0,"Android + iOS",2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"Yes
+large-scale",0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,"Yes
+(200 participants / 1 year)","N/A","Taking an outdoor picture for air pollution","N/A",1
+"TinnituSense","TinnituSense",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,1,"Yes
+detection of the possible
+context and surrounding",0,1,1,"Participatory + Opportunistic
+Unlike TrackYourTinnitus, our TinnituSense approach supports automated sensing of weather-related data in addition to feedback (in
+form of THI surveys) from the patients.
+Within the sensors layer of our RA, we propose two sublayers of Oppotun Sensing, and Particip Sensing.","N/A",0,1,"Photometer (= light sensor), Barometer, Thermometer (= temperature sensor), Hygrometer (= humidity sensor), Accelerometer, Gyroscope, Survey, Microphone, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,"2019, 2018, 2019",2,"N/A",1,1,0,0,0,0,0,1,1,1,0,1,1,0,9,1,1,0,"Yes","N/A","Tinnitus","N/A",1
+"TrailSense","N/A",0,0,0,"N/A",0,1,1,0,0,"Central server",0,0,0,0,"N/A",1,1,0,"Opportunistic
+turn on the app and go hiking","N/A",0,1,"Accelerometer, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"2017, 2018",2,"N/A",1,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,"N/A","N/A","Detecting Risky Mountain Trail Segments with Walking Pattern Analysis","N/A",1
+"TransitLabel","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,1,"Yes
+We provide a framework for extracting the features used to recognize high level user contexts",0,1,1,"Participatory + Opportunistic
+The first application is a data collection tool that runs in the background 
+to sample all inertial sensors, the barometer at 50Hz as well as recording audio. The second application is designed for ground truth collection and runs in the foreground to allow participants to manually tag their activities.","N/A",0,1,"Accelerometer, Gyroscope, Magnetometer, Barometer, Microphone, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2016,1,"Yes",1,1,0,0,0,0,0,1,1,0,1,1,0,0,6,0,0,0,"Yes
+(16 participants)","N/A","Identify transit stations semantics (e.g., ticket and drink vending machines, entrance gates, lockers, waiting (sitting) areas, restrooms, platforms and cars’ waiting lines, escalators, elevators and stairs) from the available sensors readings","N/A",1
+"UbiAir","UbiAir",0,0,0,"N/A",0,1,0,1,0,"Alibaba Cloud",0,1,0,0,"N/A",1,0,1,"Participatory
+By turning on data collection in Figure 4 (c), the user will get a view of the map showing the positions of all the red envelopes in Figure 4 (e), so that the biking path to destination can be planned beforehand, with inclination to grab some red envelopes.","MySQL",1,0,"PM2.5 sensor, CO2 sensor, PM5 sensor, PM10 sensor, Thermometer
+sensor and Hygrometer sensor, External Sensor",0,"N/A","We have designed an incentive scheme that mimics the Red Envelope, a monetary gift which is given during holidays or special occasions in Chinese and other East Asian and Southeast Asian societies. Our scheme encourages users to grab red envelopes distributed over speci c grid points, accompanying with tasks to collect air quality data at these positions. The bonus amount of each red envelope is determined by a di erential rewarding strategy, through evaluating the information gain and the di culty of data collection at corresponding position. Generally, more data collected with high-coverage biking trip, more rewards grabbed with incremental red envelopes.",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2020,1,"Yes",0,0,0,1,0,0,1,0,0,1,0,0,0,0,4,0,1,0,"Yes
+(36 students / 18 days)","N/A","Urban air quality monitoring","N/A",1
+"Urban Safety","Urban Safety",0,0,0,"N/A",0,1,0,1,0,"Cloud",0,1,0,0,"N/A",1,0,1,"Participatory
+The main functions of the app are GPS positioning, monitoring structure acceleration and displacement, filling in questionnaires, capturing images, and SOS. Users can click on the project to collect the data. Clicking on the acceleration button allows the user to enter the monitoring interface. The system then starts collecting data automatically","MySQL",1,0,"GPS, Accelerometer, Gyroscope, Proximity, Camera, Survey",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2018,1,"N/A",1,0,0,0,1,0,0,1,1,0,0,0,0,1,6,1,0,0,"Yes","N/A","Collects the damage information of the infrastructure","N/A",1
+"uSense (A)","N/A",0,0,0,"N/A",0,1,1,0,0,"N/A",0,0,1,0,"N/A",1,1,0,"Opportunistic","PostrgreSQL",1,0,"GPS, Hygrometer (E), Thermometer (E), WiFi, External Sensors",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2014,1,"Yes",0,0,0,0,0,0,1,1,0,1,0,0,0,0,5,0,1,1,"N/A","N/A","Air pollution monitoring","N/A",1
+"USense (B)","N/A",0,0,0,"N/A",0,1,1,1,0,"Cloud",0,1,0,1,"Yes",0,1,0,"Opportunistic","N/A",0,1,"Accelerometer, Barometer, Bluetooth, GPS, Microphone, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2013,1,"Yes",1,1,1,0,0,0,0,1,0,0,0,1,0,0,6,0,0,1,"N/A","N/A","Air pollution monitoring","N/A",1
+"Vita","Smart City",0,0,0,"N/A",0,1,0,1,0,"Cloud
+Amazon Web Services (EC2 and S3)",0,1,0,0,"N/A",1,0,1,"Participatory
+Then, through the user interface of the Smart
+City, they take a photograph of the food and attach simple
+comments. The photograph and comments are automatically
+combined with the location service and map service, and
+then the answers are uploaded to the cloud platform of Vita.","N/A",0,1,"Camera, GPS",0,"N/A","N/A",1,0,0,"Android",1,0,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"2013, 2014",1,"N/A",0,0,0,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,"Yes","Push","Getting restaurant recommendations from other users","N/A",1
+"WiFi Amber","N/A",0,0,0,"N/A",0,1,1,1,0,"Google Cloud Messaging",0,1,0,0,"N/A",1,1,0,"Opportunistic","N/A",0,1,"GPS, WiFi",0,"N/A","N/A",1,0,0,"Android",1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015,1,"N/A",0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1,"Yes","N/A","Finding missing children","N/A",1

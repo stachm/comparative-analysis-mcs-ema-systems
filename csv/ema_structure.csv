@@ -1,0 +1,124 @@
+Variable Name,Definition,Coding Scheme/Values,Data Format,Notes/Instructions
+app_name,Name of the application used,Text,Text,Each app name is unique.
+app_source_apple,Indicates if the app is available in App Store,"1 = Yes, 0 = No",Boolean,"1 for App Store, 0 otherwise."
+app_source_other,Indicates if the app is from other sources,"1 = Yes, 0 = No",Boolean,"1 for other sources, 0 otherwise."
+app_source_play,Indicates if the app is available in Play Store,"1 = Yes, 0 = No",Boolean,"1 for Play Store, 0 otherwise."
+app_source_raw,Source of the app,Text,Text,Raw notes on the source of the app.
+app_source_unknown,Indicates if the app source is unknown,"1 = Yes, 0 = No",Boolean,"1 for unknown source, 0 otherwise."
+crowd_opp,Indicates if opportunistic data is collected,"1 = Yes, 0 = No",Boolean,"1 for opportunistic data, 0 otherwise."
+crowd_part,Indicates if participatory data is collected,"1 = Yes, 0 = No",Boolean,"1 for participatory data, 0 otherwise."
+crowd_raw,Description of crowd data collection method,Text,Text,Raw notes on the method of crowd data collection.
+emi_int,Indicates if EMI data is collected,"1 = Yes, 0 = No",Boolean,"1 for EMI data, 0 otherwise."
+emi_raw,Description of EMI data collected,Text,Text,Raw notes on the EMI data collection.
+github_any,Indicates if any GitHub availability,"1 = Yes, 0 = No",Boolean,"1 for GitHub availability, 0 otherwise."
+github_raw,Indicates if the app is available on GitHub,Text,Text,Raw notes on the GitHub availability.
+incentive_raw,Description of incentives offered,Text,Text,Raw notes on the incentives for participation.
+not_any,Indicates if any notification is sent,"1 = Yes, 0 = No",Boolean,"1 for any notification, 0 otherwise."
+not_auditory,Indicates if auditory notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for auditory notifications, 0 otherwise."
+not_beep,Indicates if beep notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for beep notifications, 0 otherwise."
+not_flash,Indicates if flash notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for flash notifications, 0 otherwise."
+not_push,Indicates if push notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for push notifications, 0 otherwise."
+not_raw,Description of notification data collected,Text,Text,Raw notes on the notification mechanisms.
+not_sms,Indicates if SMS notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for SMS notifications, 0 otherwise."
+not_sound,Indicates if sound notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for sound notifications, 0 otherwise."
+not_type,Type of notification sent to users,Text,Text,Describes the type of notifications.
+not_vibration,Indicates if vibration notifications are sent,"1 = Yes, 0 = No",Boolean,"1 for vibration notifications, 0 otherwise."
+os_android,Indicates if Android is supported,"1 = Yes, 0 = No",Boolean,"1 for Android support, 0 otherwise."
+os_ios,Indicates if iOS is supported,"1 = Yes, 0 = No",Boolean,"1 for iOS support, 0 otherwise."
+os_other,Indicates if other operating systems are supported,"1 = Yes, 0 = No",Boolean,"1 for other OS support, 0 otherwise."
+os_raw,Operating systems supported by the app,Text,Text,Lists the operating systems.
+os_unknown,Indicates if unknown operating systems are supported,"1 = Yes, 0 = No",Boolean,"1 for unknown OS support, 0 otherwise."
+paper_found,Number of papers found related to the app,Integer,Integer,Count of papers found.
+paper_found_2006,Indicates if papers from 2006 were found,Integer,Integer,Count of papers found in 2006
+paper_found_2007,Indicates if papers from 2007 were found,Integer,Integer,Count of papers found in 2007
+paper_found_2008,Indicates if papers from 2008 were found,Integer,Integer,Count of papers found in 2008
+paper_found_2009,Indicates if papers from 2009 were found,Integer,Integer,Count of papers found in 2009
+paper_found_2010,Indicates if papers from 2010 were found,Integer,Integer,Count of papers found in 2010
+paper_found_2011,Indicates if papers from 2011 were found,Integer,Integer,Count of papers found in 2011
+paper_found_2012,Indicates if papers from 2012 were found,Integer,Integer,Count of papers found in 2012
+paper_found_2013,Indicates if papers from 2013 were found,Integer,Integer,Count of papers found in 2013
+paper_found_2014,Indicates if papers from 2014 were found,Integer,Integer,Count of papers found in 2014
+paper_found_2015,Indicates if papers from 2015 were found,Integer,Integer,Count of papers found in 2015
+paper_found_2016,Indicates if papers from 2016 were found,Integer,Integer,Count of papers found in 2016
+paper_found_2017,Indicates if papers from 2017 were found,Integer,Integer,Count of papers found in 2017
+paper_found_2018,Indicates if papers from 2018 were found,Integer,Integer,Count of papers found in 2018
+paper_found_2019,Indicates if papers from 2019 were found,Integer,Integer,Count of papers found in 2019
+paper_found_2020,Indicates if papers from 2020 were found,Integer,Integer,Count of papers found in 2020
+paper_found_2021,Indicates if papers from 2021 were found,Integer,Integer,Count of papers found in 2021
+paper_found_raw,Years of papers found,Text,Text,Lists the years of papers found.
+paper_used,Number of papers used in the study,Integer,Integer,Count of papers used.
+sched_event,Indicates if event notifications are used,"1 = Yes, 0 = No",Boolean,"1 for event notifications, 0 otherwise."
+sched_interval,Indicates if interval notifications are used,"1 = Yes, 0 = No",Boolean,"1 for interval notifications, 0 otherwise."
+sched_raw,Description of the scheduling method used,Text,Text,Raw notes on the scheduling of notifications.
+sched_signal,Indicates if signal notifications are used,"1 = Yes, 0 = No",Boolean,"1 for signal notifications, 0 otherwise."
+sensor_acc,Indicates if accelerometer data is collected,"1 = Yes, 0 = No",Boolean,"1 for accelerometer data collection, 0 otherwise."
+sensor_bluetooth,Indicates if Bluetooth data is collected,"1 = Yes, 0 = No",Boolean,"1 for Bluetooth data collection, 0 otherwise."
+sensor_camera,Indicates if camera data is collected,"1 = Yes, 0 = No",Boolean,"1 for camera data collection, 0 otherwise."
+sensor_gps,Indicates if GPS data is collected,"1 = Yes, 0 = No",Boolean,"1 for GPS data collection, 0 otherwise."
+sensor_gyro,Indicates if gyroscope data is collected,"1 = Yes, 0 = No",Boolean,"1 for gyroscope data collection, 0 otherwise."
+sensor_magnetometer,Indicates if magnetometer data is collected,"1 = Yes, 0 = No",Boolean,"1 for magnetometer data collection, 0 otherwise."
+sensor_mic,Indicates if microphone data is collected,"1 = Yes, 0 = No",Boolean,"1 for microphone data collection, 0 otherwise."
+sensor_pedometer,Indicates if pedometer data is collected,"1 = Yes, 0 = No",Boolean,"1 for pedometer data collection, 0 otherwise."
+sensor_photometer,Indicates if photometer data is collected,"1 = Yes, 0 = No",Boolean,"1 for photometer data collection, 0 otherwise."
+sensor_raw,Type of sensor data collected,Text,Text,Describes the method of data collection.
+sensor_selfreport,Indicates if self-report data is collected,"1 = Yes, 0 = No",Boolean,"1 for self-report data collection, 0 otherwise."
+sensor_sum,Total number of sensors used,Integer,Integer,Count of sensors for each app.
+sensor_survey,Indicates if survey data is collected,"1 = Yes, 0 = No",Boolean,"1 for survey data collection, 0 otherwise."
+sensor_wifi,Indicates if WiFi data is collected,"1 = Yes, 0 = No",Boolean,"1 for WiFi data collection, 0 otherwise."
+study,Indicates if the study was conducted,"1 = Yes, 0 = No",Boolean,"1 for study conducted, 0 otherwise."
+study_adjust_schedule_any,Indicates if any schedule adjustments were allowed,"1 = Yes, 0 = No",Boolean,"1 for schedule adjustments, 0 otherwise."
+study_adjust_schedule_raw,Indicates if schedule adjustments were allowed,Text,Text,Raw notes on the schedule adjustment options.
+study_any,Indicates if any study was conducted,"1 = Yes, 0 = No",Boolean,"1 for any study conducted, 0 otherwise."
+study_duration,Duration of the study,Text,Text,Describes the length of the study.
+study_participants,Number of participants in the study,Integer,Integer,Total count of participants.
+study_reminder_any,Indicates if any reminders were sent,"1 = Yes, 0 = No",Boolean,"1 for reminders sent, 0 otherwise."
+study_reminder_raw,Description of reminders sent,Text,Text,Raw notes on the reminder methods.
+study_response_limit,Indicates if there was a response limit,"1 = Yes, 0 = No",Boolean,"1 for response limit, 0 otherwise."
+study_surveynum,Number of surveys conducted per day,Text,Text,Raw notes on the survey frequency.
+usecase_agarophobia,Indicates if the app addresses agarophobia,"1 = Yes, 0 = No",Boolean,"1 for agarophobia, 0 otherwise."
+usecase_alcoholism,Indicates if the app addresses alcoholism,"1 = Yes, 0 = No",Boolean,"1 for alcoholism, 0 otherwise."
+usecase_allergies,Indicates if the app addresses allergies,"1 = Yes, 0 = No",Boolean,"1 for allergies, 0 otherwise."
+usecase_anxiety,Indicates if the app addresses anxiety,"1 = Yes, 0 = No",Boolean,"1 for anxiety, 0 otherwise."
+usecase_auditory_verbal_hallucinations,Indicates if the app addresses auditory verbal hallucinations,"1 = Yes, 0 = No",Boolean,"1 for auditory verbal hallucinations, 0 otherwise."
+usecase_borderline_personality_disorder_,Indicates if the app addresses borderline personality disorder,"1 = Yes, 0 = No",Boolean,"1 for borderline personality disorder, 0 otherwise."
+usecase_breastfeeding,Indicates if the app addresses breastfeeding,"1 = Yes, 0 = No",Boolean,"1 for breastfeeding, 0 otherwise."
+usecase_bruxism,Indicates if the app addresses bruxism,"1 = Yes, 0 = No",Boolean,"1 for bruxism, 0 otherwise."
+usecase_chronic_fatigue,Indicates if the app addresses chronic fatigue,"1 = Yes, 0 = No",Boolean,"1 for chronic fatigue, 0 otherwise."
+usecase_chronic_pain,Indicates if the app addresses chronic pain,"1 = Yes, 0 = No",Boolean,"1 for chronic pain, 0 otherwise."
+usecase_contact_with_older_person,Indicates if the app addresses contact with older persons,"1 = Yes, 0 = No",Boolean,"1 for contact with older persons, 0 otherwise."
+usecase_daily_activities,Indicates if the app addresses daily activities,"1 = Yes, 0 = No",Boolean,"1 for daily activities, 0 otherwise."
+usecase_depression,Indicates if the app addresses depression,"1 = Yes, 0 = No",Boolean,"1 for depression, 0 otherwise."
+usecase_diet,Indicates if the app addresses diet,"1 = Yes, 0 = No",Boolean,"1 for diet, 0 otherwise."
+usecase_drugs,Indicates if the app addresses drug use,"1 = Yes, 0 = No",Boolean,"1 for drug use, 0 otherwise."
+usecase_emotional_wellbeing,Indicates if the app addresses emotional wellbeing,"1 = Yes, 0 = No",Boolean,"1 for emotional wellbeing, 0 otherwise."
+usecase_environment,Indicates if the app addresses environmental issues,"1 = Yes, 0 = No",Boolean,"1 for environmental issues, 0 otherwise."
+usecase_exercise,Indicates if the app addresses exercise,"1 = Yes, 0 = No",Boolean,"1 for exercise, 0 otherwise."
+usecase_farm_activities,Indicates if the app addresses farm activities,"1 = Yes, 0 = No",Boolean,"1 for farm activities, 0 otherwise."
+usecase_fatigue,Indicates if the app addresses fatigue,"1 = Yes, 0 = No",Boolean,"1 for fatigue, 0 otherwise."
+usecase_happiness,Indicates if the app addresses happiness,"1 = Yes, 0 = No",Boolean,"1 for happiness, 0 otherwise."
+usecase_hearing_loss,Indicates if the app addresses hearing loss,"1 = Yes, 0 = No",Boolean,"1 for hearing loss, 0 otherwise."
+usecase_hiv_risk_behavior,Indicates if the app addresses HIV risk behavior,"1 = Yes, 0 = No",Boolean,"1 for HIV risk behavior, 0 otherwise."
+usecase_inner_speech,Indicates if the app addresses inner speech,"1 = Yes, 0 = No",Boolean,"1 for inner speech, 0 otherwise."
+usecase_loneliness_and_companionship,Indicates if the app addresses loneliness and companionship,"1 = Yes, 0 = No",Boolean,"1 for loneliness and companionship, 0 otherwise."
+usecase_mental_health,Indicates if the app addresses mental health,"1 = Yes, 0 = No",Boolean,"1 for mental health, 0 otherwise."
+usecase_mood,Indicates if the app addresses mood,"1 = Yes, 0 = No",Boolean,"1 for mood, 0 otherwise."
+usecase_obsessive–compulsive_disorder,Indicates if the app addresses obsessive-compulsive disorder,"1 = Yes, 0 = No",Boolean,"1 for obsessive-compulsive disorder, 0 otherwise."
+usecase_pain,Indicates if the app addresses pain,"1 = Yes, 0 = No",Boolean,"1 for pain, 0 otherwise."
+usecase_panic_disorder_,Indicates if the app addresses panic disorder,"1 = Yes, 0 = No",Boolean,"1 for panic disorder, 0 otherwise."
+usecase_parental_behavior,Indicates if the app addresses parental behavior,"1 = Yes, 0 = No",Boolean,"1 for parental behavior, 0 otherwise."
+usecase_parkinson,Indicates if the app addresses Parkinson's disease,"1 = Yes, 0 = No",Boolean,"1 for Parkinson's disease, 0 otherwise."
+usecase_physical_activities,Indicates if the app addresses physical activities,"1 = Yes, 0 = No",Boolean,"1 for physical activities, 0 otherwise."
+usecase_psychological_well-being,Indicates if the app addresses psychological well-being,"1 = Yes, 0 = No",Boolean,"1 for psychological well-being, 0 otherwise."
+usecase_psychosis,Indicates if the app addresses psychosis,"1 = Yes, 0 = No",Boolean,"1 for psychosis, 0 otherwise."
+usecase_psychotherapy,Indicates if the app addresses psychotherapy,"1 = Yes, 0 = No",Boolean,"1 for psychotherapy, 0 otherwise."
+usecase_raw,Description of use cases for the app,Text,Text,Raw notes on the use cases.
+usecase_schizophrenia,Indicates if the app addresses schizophrenia,"1 = Yes, 0 = No",Boolean,"1 for schizophrenia, 0 otherwise."
+usecase_sleep,Indicates if the app addresses sleep issues,"1 = Yes, 0 = No",Boolean,"1 for sleep issues, 0 otherwise."
+usecase_smoking,Indicates if the app addresses smoking,"1 = Yes, 0 = No",Boolean,"1 for smoking, 0 otherwise."
+usecase_social_media_use_(387),Indicates if the app addresses social media use,"1 = Yes, 0 = No",Boolean,"1 for social media use, 0 otherwise."
+usecase_stress,Indicates if the app addresses stress,"1 = Yes, 0 = No",Boolean,"1 for stress, 0 otherwise."
+usecase_suicide_attempt,Indicates if the app addresses suicide attempts,"1 = Yes, 0 = No",Boolean,"1 for suicide attempts, 0 otherwise."
+usecase_sum,Total number of use cases,Integer,Integer,Count of use cases for each app.
+usecase_tinnitus,Indicates if the app addresses tinnitus,"1 = Yes, 0 = No",Boolean,"1 for tinnitus, 0 otherwise."
+website_raw,Indicates if the app has a website,"1 = Yes, 0 = No",Boolean,"1 for website availability, 0 otherwise."
+website_any,Indicates if any website availability,"1 = Yes, 0 = No",Boolean,"1 for website availability, 0 otherwise."
