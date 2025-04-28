@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/966902735.svg)](https://doi.org/10.5281/zenodo.15299160)
+
 # Comparative Analysis of Mobile Crowdsensing and Ecological Momentary Assessment Systems
 This repository supports the research paper *Comparative Analysis of Mobile Crowdsensing and Ecological Momentary Assessment Systems*. It contains datasets and their corresponding codebooks for two distinct data sources: **EMA** and **MCS**. For further details on the study and its findings, please refer to the metadata of this repository.
 
